@@ -34,6 +34,8 @@ function setup() {
 	height = getHeight();
 	width = getWidth();
 
+	frameRate(30);
+
 	var cnv = createCanvas(width, height);
 	cnv.parent('sketch-holder');
 
