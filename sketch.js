@@ -71,7 +71,7 @@ function setup() {
 	BenchMarkTestFunction(); // render frame for example
 	var EndTime = new Date().getTime();
 	var ElapsedMilliseconds = EndTime - StartTime;
-	var AcceptableTime = 10; // ten milliseconds
+	var AcceptableTime = 3; // ten milliseconds
 	IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
 
 	if(!IsGoodPerformance) {
