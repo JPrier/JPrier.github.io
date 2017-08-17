@@ -5,13 +5,13 @@ Uncomment the random lines loops and functions to see them. They are currently t
 
 var innerBalls = [];
 var outerBalls = [];
-var randomLines = [];
+//var randomLines = [];
 var innerCircleAmt = 20;
 var outerCircleAmt = 40;
-var randomLinesAmt = 10;
+//var randomLinesAmt = 10;
 var innerRadius = 200;
 var outerRadius = 300;
-var lineLength = 5;
+//var lineLength = 5;
 
 var ballSize = 10;
 var canSize = 1000;
@@ -26,15 +26,22 @@ var width;
 var height;
 
 var oL = false;
-var iL = false;
+//var iL = false;
 var spreadSpeed = .2;
 
 var colorB = 255;
+var counter = 0;
+var fps = 0;
 
-function setup() {	
+var piIndex;
 
-	height = getHeight();
-	width = getWidth();
+p5.disableFriendlyErrors = true;
+
+function setup() {
+
+		
+	getHeight();
+	getWidth();
 
 	var cnv = createCanvas(width, height);
 	cnv.parent('sketch-holder');
@@ -48,20 +55,18 @@ function setup() {
 		outerBalls[i] = new Ball();
 		outerBalls[i].create(outerRadius, i, false);
 	}
+
+	piIndex = TWO_PI / indexTotal;
 	/*
 	for (var i = 0; i < randomLinesAmt; i++) {
 		randomLines[i] = new LineBall();
 		randomLines[i].create();
 	}*/
-	
-
 }
 
 function draw() {
 
 	background(0);
-
-	width = getWidth();
   
   	for (var i = 0; i < innerCircleAmt; i++) {
 		innerBalls[i].update();
@@ -77,7 +82,7 @@ function draw() {
 	for (var i = 0; i < outerCircleAmt; i++) {
 		outerBalls[i].update();
 
-		/*
+		
 		if (outerBalls[i].r > outerRadius*1.2 || oL) {
 			outerBalls[i].r -= spreadSpeed;
 
@@ -88,15 +93,26 @@ function draw() {
 			}
 		} else {
 			outerBalls[i].r += spreadSpeed;
-		}*/
+		}
 	}
-	
+
 	/*
 	for (var i = 0; i < randomLinesAmt; i++) {
 		randomLines[i].update();
 	}*/
 
-	
+	// Draw FPS (rounded to 2 decimal places) at the bottom left of the screen
+	/*
+	if ((counter % 10) == 0) {
+		fps = frameRate();
+	}
+	fill(255);
+	stroke(0);
+	text("FPS: " + fps.toFixed(2), 30, 30);
+	counter++;
+	*/
+
+
 }
 
 function Ball() {
@@ -105,16 +121,17 @@ function Ball() {
 	this.r;
 	this.x;
 	this.y;
-	this.location;
-	this.lines = [];
 	this.inner;
 	this.center;
 	this.lines;
+	this.index;
 
 	this.create = function(r, i, inner) {
 
 		this.inner = inner;
 		this.r = r;
+
+		this.index = i;
 
 		if (inner) {
 			this.i = i * (indexTotal/innerCircleAmt);
@@ -124,11 +141,8 @@ function Ball() {
 			this.center = createVector(width/2, 170);
 		}
 
-		this.x = this.center.x + this.r * (Math.sin(((TWO_PI)/indexTotal) * i));
-		this.y = this.center.y + this.r * (Math.cos(((TWO_PI)/indexTotal) * i));
-		
-
-		this.location = createVector(this.x, this.y);
+		this.x = this.center.x + this.r * (Math.sin(piIndex * i));
+		this.y = this.center.y + this.r * (Math.cos(piIndex * i));
 
 		this.lines = 0;
 	}
@@ -145,16 +159,15 @@ function Ball() {
 			this.i = 0;
 		}
 
-		this.center.x = min(width, windowWidth)/2;
+		this.center.x = Math.min(width, windowWidth)/2;
 
-		this.x = this.center.x + this.r * (Math.sin(((TWO_PI)/indexTotal) * this.i));
-		this.y = this.center.y + this.r * (Math.cos(((TWO_PI)/indexTotal) * this.i));
-
-		this.location.x = this.x;
-		this.location.y = this.y;
+		this.x = this.center.x + this.r * (Math.sin(piIndex * this.i));
+		this.y = this.center.y + this.r * (Math.cos(piIndex * this.i));
 
 		this.show();
 		this.showLines();
+
+		this.lines = 0;
 	}
 
 	this.show = function() {
@@ -164,18 +177,27 @@ function Ball() {
 	}
 
 	this.showLines = function() {
+
+		var distance;
+		var other;
+
+		noFill();
+
 		if (this.inner) {
 
 			for (var i = 0; i < outerBalls.length; i++) {
 
-				var other = outerBalls[i];
-				var distance = this.location.dist(other.location);
+				other = outerBalls[i];
+				distance = distSquared(this.x, this.y, other.x, other.y);
 
 				if (distance < lineDistance) {
-					this.lines++;
 					stroke(colorB, 2 * (lineDistance-distance));
-					noFill();
 					line(this.x, this.y, other.x, other.y);
+					this.lines++;
+				}
+
+				if (this.lines == 12) {
+					break;
 				}
 			}
 		}
@@ -290,7 +312,7 @@ function LineBall() {
 }
 */
 function getWidth() {
-  return Math.max(
+  width = Math.max(
     document.body.scrollWidth,
     document.documentElement.scrollWidth,
     document.body.offsetWidth,
@@ -300,7 +322,7 @@ function getWidth() {
 }
 
 function getHeight() {
-  return Math.max(
+  height = Math.max(
     document.body.scrollHeight,
     document.documentElement.scrollHeight,
     document.body.offsetHeight,
@@ -310,8 +332,14 @@ function getHeight() {
 }
 
 function windowResized() {
-	width = getWidth();
-	var height = getHeight();
+	getWidth();
+	getHeight();
 	resizeCanvas(Math.min(width, windowWidth), Math.min(height, windowHeight));
 
+}
+
+function distSquared(x1, y1, x2, y2) {
+    var dx = x2 - x1;
+    var dy = y2 - y1;
+    return Math.sqrt(dx * dx + dy * dy);
 }
