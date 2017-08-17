@@ -63,11 +63,12 @@ function setup() {
 		randomLines[i].create();
 	}*/
 
+
+	//Benchmarking
 	var StartTime = new Date().getTime();
 	BenchMarkTestFunction(); // render frame for example
 	var EndTime = new Date().getTime();
 	var ElapsedMilliseconds = EndTime - StartTime;
-
 	var AcceptableTime = 10; // ten milliseconds
 	var IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
 
