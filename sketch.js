@@ -71,21 +71,14 @@ function setup() {
 	BenchMarkTestFunction(); // render frame for example
 	var EndTime = new Date().getTime();
 	var ElapsedMilliseconds = EndTime - StartTime;
-	var AcceptableTime = 3; // ten milliseconds
-	IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
+	var AcceptableTime = 5; // ten milliseconds
+	IsGoodPerformance = ElapsedMilliseconds <= AcceptableTime; // some number being acceptable performace
 
 	if(!IsGoodPerformance) {
-		alert(ElapsedMilliseconds);
-
-		//android notification
-		navigator.serviceWorker.register('sw.js');
-		Notification.requestPermission(function(result) {
-	  		if (result === 'granted') {
-	    		navigator.serviceWorker.ready.then(function(registration) {
-	      			registration.showNotification('Notification with ServiceWorker');
-	    		});
-  			}
-		});
+		alert("Acceptable Benchmark Time: " + AcceptableTime + " milliseconds\nYour Benchmark Time: " + 
+			ElapsedMilliseconds + 
+			" milliseconds\nLimiting the top sketch to put less stress on your device, " + 
+			"To see the full sketch go to the animations section of my projects");
 	}
 }
 
