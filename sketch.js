@@ -75,6 +75,7 @@ function setup() {
 	if(!IsGoodPerformance) {
 		alert(ElapsedMilliseconds);
 
+		//android notification
 		navigator.serviceWorker.register('sw.js');
 		Notification.requestPermission(function(result) {
 	  		if (result === 'granted') {
