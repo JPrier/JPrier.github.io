@@ -62,6 +62,18 @@ function setup() {
 		randomLines[i] = new LineBall();
 		randomLines[i].create();
 	}*/
+
+	var StartTime = new Date().getTime();
+	BenchMarkTestFunction(); // render frame for example
+	var EndTime = new Date().getTime();
+	var ElapsedMilliseconds = EndTime - StartTime;
+
+	var AcceptableTime = 1000; // one second
+	var IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
+
+	if(!IsGoodPerformance) {
+		alert(ElapsedMilliseconds);
+	}
 }
 
 function draw() {
@@ -342,4 +354,37 @@ function distSquared(x1, y1, x2, y2) {
     var dx = x2 - x1;
     var dy = y2 - y1;
     return Math.sqrt(dx * dx + dy * dy);
+}
+
+//Call draw once to see how long it takes to do it once on the current device
+function BenchMarkTestFunction() {
+	background(0);
+  
+  	for (var i = 0; i < innerCircleAmt; i++) {
+		innerBalls[i].update();
+
+		/*
+		if (innerBalls[i].r > innerRadius*1.5 || iL) {
+			innerBalls[i].r == innerRadius;
+		} else {
+			innerBalls[i].r += .5;
+		}*/
+	}
+
+	for (var i = 0; i < outerCircleAmt; i++) {
+		outerBalls[i].update();
+
+		
+		if (outerBalls[i].r > outerRadius*1.2 || oL) {
+			outerBalls[i].r -= spreadSpeed;
+
+			if (i == outerCircleAmt - 1 && outerBalls[i].r == outerRadius) {
+				oL = false;
+			} else {
+				oL = true;
+			}
+		} else {
+			outerBalls[i].r += spreadSpeed;
+		}
+	}
 }
