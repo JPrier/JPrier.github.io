@@ -35,6 +35,8 @@ var fps = 0;
 
 var piIndex;
 
+var IsGoodPerformance;
+
 p5.disableFriendlyErrors = true;
 
 function setup() {
@@ -70,7 +72,7 @@ function setup() {
 	var EndTime = new Date().getTime();
 	var ElapsedMilliseconds = EndTime - StartTime;
 	var AcceptableTime = 10; // ten milliseconds
-	var IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
+	IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
 
 	if(!IsGoodPerformance) {
 		alert(ElapsedMilliseconds);
@@ -90,16 +92,18 @@ function setup() {
 function draw() {
 
 	background(0);
-  
-  	for (var i = 0; i < innerCircleAmt; i++) {
-		innerBalls[i].update();
+  	
+  	if(IsGoodPerformance) {
+	  	for (var i = 0; i < innerCircleAmt; i++) {
+			innerBalls[i].update();
 
-		/*
-		if (innerBalls[i].r > innerRadius*1.5 || iL) {
-			innerBalls[i].r == innerRadius;
-		} else {
-			innerBalls[i].r += .5;
-		}*/
+			/*
+			if (innerBalls[i].r > innerRadius*1.5 || iL) {
+				innerBalls[i].r == innerRadius;
+			} else {
+				innerBalls[i].r += .5;
+			}*/
+		}
 	}
 
 	for (var i = 0; i < outerCircleAmt; i++) {
@@ -188,7 +192,9 @@ function Ball() {
 		this.y = this.center.y + this.r * (Math.cos(piIndex * this.i));
 
 		this.show();
-		this.showLines();
+		if(IsGoodPerformance) {
+			this.showLines();
+		}
 
 		this.lines = 0;
 	}
