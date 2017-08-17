@@ -27,14 +27,14 @@ var height;
 
 var oL = false;
 var iL = false;
-var spreadSpeed = .2
+var spreadSpeed = .2;
+
+var colorB = 255;
 
 function setup() {	
 
 	height = getHeight();
 	width = getWidth();
-
-	frameRate(30);
 
 	var cnv = createCanvas(width, height);
 	cnv.parent('sketch-holder');
@@ -77,6 +77,7 @@ function draw() {
 	for (var i = 0; i < outerCircleAmt; i++) {
 		outerBalls[i].update();
 
+		/*
 		if (outerBalls[i].r > outerRadius*1.2 || oL) {
 			outerBalls[i].r -= spreadSpeed;
 
@@ -87,8 +88,9 @@ function draw() {
 			}
 		} else {
 			outerBalls[i].r += spreadSpeed;
-		}
+		}*/
 	}
+	
 	/*
 	for (var i = 0; i < randomLinesAmt; i++) {
 		randomLines[i].update();
@@ -122,8 +124,8 @@ function Ball() {
 			this.center = createVector(width/2, 170);
 		}
 
-		this.x = this.center.x + this.r * (Math.sin(((2*Math.PI)/indexTotal) * i));
-		this.y = this.center.y + this.r * (Math.cos(((2*Math.PI)/indexTotal) * i));
+		this.x = this.center.x + this.r * (Math.sin(((TWO_PI)/indexTotal) * i));
+		this.y = this.center.y + this.r * (Math.cos(((TWO_PI)/indexTotal) * i));
 		
 
 		this.location = createVector(this.x, this.y);
@@ -145,8 +147,8 @@ function Ball() {
 
 		this.center.x = min(width, windowWidth)/2;
 
-		this.x = this.center.x + this.r * (Math.sin(((2*Math.PI)/indexTotal) * this.i));
-		this.y = this.center.y + this.r * (Math.cos(((2*Math.PI)/indexTotal) * this.i));
+		this.x = this.center.x + this.r * (Math.sin(((TWO_PI)/indexTotal) * this.i));
+		this.y = this.center.y + this.r * (Math.cos(((TWO_PI)/indexTotal) * this.i));
 
 		this.location.x = this.x;
 		this.location.y = this.y;
@@ -157,7 +159,7 @@ function Ball() {
 
 	this.show = function() {
 		noStroke();
-		fill(255);
+		fill(colorB);
 		ellipse(this.x, this.y, ballSize, ballSize);
 	}
 
@@ -171,7 +173,7 @@ function Ball() {
 
 				if (distance < lineDistance) {
 					this.lines++;
-					stroke(255, 2 * (lineDistance-distance));
+					stroke(colorB, 2 * (lineDistance-distance));
 					noFill();
 					line(this.x, this.y, other.x, other.y);
 				}
@@ -310,6 +312,6 @@ function getHeight() {
 function windowResized() {
 	width = getWidth();
 	var height = getHeight();
-	resizeCanvas(min(width, windowWidth), min(height, windowHeight));
+	resizeCanvas(Math.min(width, windowWidth), Math.min(height, windowHeight));
 
 }
