@@ -68,7 +68,7 @@ function setup() {
 	var EndTime = new Date().getTime();
 	var ElapsedMilliseconds = EndTime - StartTime;
 
-	var AcceptableTime = 1000; // one second
+	var AcceptableTime = 10; // ten milliseconds
 	var IsGoodPerformance = ElapsedMilliseconds < AcceptableTime; // some number being acceptable performace
 
 	if(!IsGoodPerformance) {
