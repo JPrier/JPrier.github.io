@@ -35,7 +35,7 @@ var fps = 0;
 
 var piIndex;
 
-var IsGoodPerformance;
+var IsGoodPerformance = true;
 
 p5.disableFriendlyErrors = true;
 
@@ -66,7 +66,7 @@ function setup() {
 	}*/
 
 
-	//Benchmarking
+	/*Benchmarking
 	var StartTime = new Date().getTime();
 	BenchMarkTestFunction(); // render frame for example
 	var EndTime = new Date().getTime();
@@ -79,7 +79,7 @@ function setup() {
 			ElapsedMilliseconds + 
 			" milliseconds\nLimiting the top sketch to put less stress on your device, " + 
 			"To see the full sketch go to the animations section of my projects");
-	}
+	}*/
 }
 
 function draw() {
