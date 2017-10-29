@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8">
-<meta name="viewpoint" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="first.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +11,8 @@
 </head>
 
 <body>
+
+	
 
 	<!-- Preloader>
 	<div class="preloader">
@@ -32,7 +33,7 @@
 
 
 	<!--Profile Picture-->
-	<div style="z-index: 1; margin-top: 10px;" class="w3-center circletag">
+	<div style="z-index: 1; margin-top: 10px;" class="w3-center circletag" id="profile">
 		<img class="img-circle" src="me.JPG">
 	</div>
 
@@ -219,20 +220,30 @@
 			</div>
 		</div>
 	</div>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.12/addons/p5.dom.js"></script>
-	<script language="javascript" type="text/javascript" src="sketch.js"></script>
-	<script src="https://www.google.com/jsapi" type="text/javascript"></script>
-	<script type="text/javascript">google.load("jquery", "1.3.2");</script>
-	<!--script type="text/javascript">
-		jQuery(document).ready(function(){
-			jQuery('.skillbar').each(function(){
-				jQuery(this).find('.skillbar-bar').animate({
-					width:jQuery(this).attr('data-percent')
-				},6000);
-			});
-		});
-	</script-->
+	<!--Projects-->
+<div class="title">Projects</div>
+<div class="btn_group">
+	<button>All</button>
+	<button>De</button>
+	<button>Android</button>
+	<button>iOS</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.12/addons/p5.dom.js"></script>
+<script language="javascript" src="sketch.js"></script>
+<script src="https://www.google.com/jsapi"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+<!--script>
+	var queue = new createjs.LoadQueue(false);
+	queue.on("fileload", handleFileComplete);
+	queue.loadFile();
+	function handleFileComplete(event) {
+		document.body.appendChild(event.result);
+	}
+</script-->
 
 </body>
 </html>

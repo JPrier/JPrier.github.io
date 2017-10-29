@@ -35,8 +35,6 @@ var fps = 0;
 
 var piIndex;
 
-var IsGoodPerformance = true;
-
 p5.disableFriendlyErrors = true;
 
 function setup() {
@@ -86,17 +84,16 @@ function draw() {
 
 	background(0);
   	
-  	if(IsGoodPerformance) {
-	  	for (var i = 0; i < innerCircleAmt; i++) {
-			innerBalls[i].update();
+  	
+  	for (var i = 0; i < innerCircleAmt; i++) {
+		innerBalls[i].update();
 
-			/*
-			if (innerBalls[i].r > innerRadius*1.5 || iL) {
-				innerBalls[i].r == innerRadius;
-			} else {
-				innerBalls[i].r += .5;
-			}*/
-		}
+		/*
+		if (innerBalls[i].r > innerRadius*1.5 || iL) {
+			innerBalls[i].r == innerRadius;
+		} else {
+			innerBalls[i].r += .5;
+		}*/
 	}
 
 	for (var i = 0; i < outerCircleAmt; i++) {
@@ -185,9 +182,7 @@ function Ball() {
 		this.y = this.center.y + this.r * (Math.cos(piIndex * this.i));
 
 		this.show();
-		if(IsGoodPerformance) {
-			this.showLines();
-		}
+		this.showLines();
 
 		this.lines = 0;
 	}
@@ -225,114 +220,8 @@ function Ball() {
 		}
 	}
 }
-/*
-function LineBall() {
 
-	this.ox;
-	this.x;
-	this.y;
-	this.location;
-	this.lines = [];
-	this.balls = [];
 
-	this.create = function() {
-		this.ox = Math.random() >= 0.5;
-
-		if (this.ox) {
-			this.x = random(0, width);
-			
-		} else {
-			this.x = random(0, width);
-		}
-
-		this.y = random(100, height-100);
-
-		this.location = createVector(this.x, this.y);
-
-	}
-
-	this.update = function() {
-
-		if (this.x > width || this.x < 0) {
-			if (this.ox) {
-				this.x = 0;
-			} else {
-				this.x = width;
-			}
-			this.y = random(100, height-100);
-			this.location.y = this.y;
-
-		} else {
-			if (this.ox) {
-				this.x += random(linespeed[0], linespeed[1]) * speed;
-			} else {
-				this.x -= random(linespeed[0], linespeed[1]) * speed;
-			}
-		}
-
-		this.location.x = this.x;
-
-		this.show();
-		this.showLines();
-
-		for (var i = 0; i < lineLength; i++) {
-			this.balls[i] = createVector(this.x + (spread*i), this.y);
-		}
-
-	}
-
-	this.show = function() {
-
-		noStroke();
-		fill(255);
-
-		for (var i = 0; i < this.balls.length; i++) {
-			ellipse(this.balls[i].x, this.balls[i].y, ballSize, ballSize);
-		}
-	}
-
-	this.showLines = function() {
-		for (var j = 0; j < this.balls.length; j++) {
-			for (var i = 0; i < outerBalls.length; i++) {
-
-					var other = outerBalls[i];
-					var distance = this.balls[j].dist(other.location);
-
-					if (distance < lineDistance) {
-						stroke(255, 2 * (lineDistance-distance));
-						noFill();
-						line(this.balls[j].x, this.y, other.x, other.y);
-					}
-				}
-			for (var i = 0; i < innerBalls.length; i++) {
-
-				var other = innerBalls[i];
-				var distance = this.balls[j].dist(other.location);
-
-				if (distance < lineDistance) {
-					stroke(255, 2 * (lineDistance-distance));
-					noFill();
-					line(this.balls[j].x, this.y, other.x, other.y);
-				}
-			}
-
-			for (var i = 0; i < randomLines.length; i++) {
-
-				var other = randomLines[i];
-				if (other.location != this.balls[j].location) {
-					var distance = this.balls[j].dist(other.location);
-
-					if (distance < lineDistance) {
-						stroke(255, 2 * (lineDistance-distance));
-						noFill();
-						line(this.balls[j].x, this.y, other.x, other.y);
-					}
-				}
-			}
-		}
-	}
-}
-*/
 function getWidth() {
   width = Math.max(
     document.body.scrollWidth,
@@ -364,37 +253,4 @@ function distSquared(x1, y1, x2, y2) {
     var dx = x2 - x1;
     var dy = y2 - y1;
     return Math.sqrt(dx * dx + dy * dy);
-}
-
-//Call draw once to see how long it takes to do it once on the current device
-function BenchMarkTestFunction() {
-	background(0);
-  
-  	for (var i = 0; i < innerCircleAmt; i++) {
-		innerBalls[i].update();
-
-		/*
-		if (innerBalls[i].r > innerRadius*1.5 || iL) {
-			innerBalls[i].r == innerRadius;
-		} else {
-			innerBalls[i].r += .5;
-		}*/
-	}
-
-	for (var i = 0; i < outerCircleAmt; i++) {
-		outerBalls[i].update();
-
-		
-		if (outerBalls[i].r > outerRadius*1.2 || oL) {
-			outerBalls[i].r -= spreadSpeed;
-
-			if (i == outerCircleAmt - 1 && outerBalls[i].r == outerRadius) {
-				oL = false;
-			} else {
-				oL = true;
-			}
-		} else {
-			outerBalls[i].r += spreadSpeed;
-		}
-	}
 }

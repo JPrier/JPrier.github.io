@@ -30,7 +30,7 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
 	section .fa:hover {
 		opacity: 0.7;
 	}
@@ -113,7 +113,7 @@ body {
 	background: #CECECE;
     float: left;
     width: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 0 8px;
 }
 
@@ -122,6 +122,10 @@ body {
         width: 100%;
         display: block;
         margin-bottom: 80px;
+    }
+
+    .sketch {
+    	width: 768px;
     }
 }
 
@@ -144,7 +148,7 @@ li {
     font-size: 20px;
 }
 
-/* Animated SkillBar */
+/* SkillBar */
 .skills {
 	position: relative;
 	height: 10px;
@@ -200,3 +204,93 @@ li {
 .front {width: 40%;}
 .ml {width: 20%;}
 .gd {width: 30%;}
+
+/* Portfolio */
+.btn-group {
+	margin-left: 15%;
+	margin-right: 15%;
+	margin:0px auto;
+}
+
+.btn_group button {
+	background-color: #0B3954;
+	border: 1px solid #0B3954;
+	color: white;
+	padding: 10px 24px;
+	cursor: pointer;
+	float: left;
+	width: 25%;
+	margin-top: 30px;w
+}
+
+.btn-group button:not(:not-child) {
+	border-right: none;
+}
+
+.btn-group:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.btn-group button:hover {
+	background-color: #030f17;
+}
+
+.title {
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	width: 50%
+}
+
+/* Loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
