@@ -206,42 +206,84 @@ li {
 .gd {width: 30%;}
 
 /* Portfolio */
-.btn-group {
+.btn_group {
 	margin-left: 15%;
 	margin-right: 15%;
 	margin:0px auto;
 }
 
 .btn_group button {
+	display: inline-block;
+	margin-left: 17%;
+	margin-bottom: 15px;
+	border-radius: 50%;
 	background-color: #0B3954;
 	border: 1px solid #0B3954;
 	color: white;
-	padding: 10px 24px;
+	padding: 10px 10px;
 	cursor: pointer;
 	float: left;
-	width: 25%;
-	margin-top: 30px;w
+	width: 70px;
+	height: 70px;
+	margin-top: 30px;
+	box-shadow: 0 9px #999;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
-.btn-group button:not(:not-child) {
+.btn_group .focus:focus {
+	outline: none;
+	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+.btn_group button:not(:not-child) {
 	border-right: none;
 }
 
-.btn-group:after {
+.btn_group:after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.btn-group button:hover {
+.btn_group button:hover {
 	background-color: #030f17;
 }
 
-.title {
-	position: relative;
-	text-align: center;
-	font-size: 40px;
-	width: 50%
+.portfolio {
+	margin-top: 45px;
+	margin-bottom: 40px;
+	list-style-type: none;
+    border: 1px solid #CECECE;
+    border-radius: 15px;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio .card {
+	border-radius: 15px;
+	margin-left: 10%;
+	width: 200px;
+	background: #CECECE;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.pro-pic {
+	border-radius: 5%;
+	width: 100%;
+}
+
+.pro-name {
+	padding: 10px 10px;
 }
 
 /* Loader */

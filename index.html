@@ -220,14 +220,41 @@
 			</div>
 		</div>
 	</div>
+
+<section class="w3-container w3-center centering" >	
 	<!--Projects-->
-<div class="title">Projects</div>
-<div class="btn_group">
-	<button>All</button>
-	<button>De</button>
-	<button>Android</button>
-	<button>iOS</button>
-</div>
+	<div class="w3-wide" style="font-size: 40px; margin-top: 20px;">Projects</div>
+	<div class="btn_group">
+		<button id="All" class="focus">All</button>
+		<button id="Games" class="focus">Games</button>
+		<button id="Android" class="focus">Android</button>
+		<button id="iOS" class="focus">iOS</button>
+	</div>
+	<div id="div_all" class="portfolio">
+		<div class="card">
+			<img class="pro-pic" src="mario_game.png">
+			<div class="pro-name">
+				<h4><b>Mario</b></h4> 
+    			<p>Java Game</p>
+			</div>
+		</div>
+	</div>
+	<div id="div_games" class="portfolio">
+		<div class="card">
+			<img class="pro-pic" src="mario_game.png">
+			<div class="pro-name">
+				<h4><b>Mario</b></h4> 
+    			<p>Java Game</p>
+			</div>
+		</div>
+	</div>
+	<div id="div_android" class="portfolio">
+		
+	</div>
+	<div id="div_ios" class="portfolio">
+		
+	</div>
+</section>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.12/addons/p5.dom.js"></script>
@@ -235,6 +262,25 @@
 <script src="https://www.google.com/jsapi"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+<script>
+	$("#All").on('click', function() {
+    	$("#div_all").fadeIn();
+    	$("#div_games,#div_android,#div_ios").fadeOut();
+	});
+	$("#Games").on('click', function() {
+   		$("#div_games").fadeIn();
+   		$("#div_all,#div_android,#div_ios").fadeOut();
+	});
+	$("#Android").on('click', function() {
+   		$("#div_android").fadeIn();
+   		$("#div_all,#div_games,#div_ios").fadeOut();
+	});
+	$("#iOS").on('click', function() {
+   		$("#div_ios").fadeIn();
+   		$("#div_all,#div_games,#div_android").fadeOut();
+	});
+</script>
 
 <!--script>
 	var queue = new createjs.LoadQueue(false);
