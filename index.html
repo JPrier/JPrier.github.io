@@ -264,21 +264,23 @@
 <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
 
 <script>
+	$("#div_all").show();
+	$("#div_games,#div_android,#div_ios").hide();
 	$("#All").on('click', function() {
     	$("#div_all").fadeIn();
-    	$("#div_games,#div_android,#div_ios").fadeOut();
+    	$("#div_games,#div_android,#div_ios").hide();
 	});
 	$("#Games").on('click', function() {
    		$("#div_games").fadeIn();
-   		$("#div_all,#div_android,#div_ios").fadeOut();
+   		$("#div_all,#div_android,#div_ios").hide();
 	});
 	$("#Android").on('click', function() {
    		$("#div_android").fadeIn();
-   		$("#div_all,#div_games,#div_ios").fadeOut();
+   		$("#div_all,#div_games,#div_ios").hide();
 	});
 	$("#iOS").on('click', function() {
    		$("#div_ios").fadeIn();
-   		$("#div_all,#div_games,#div_android").fadeOut();
+   		$("#div_all,#div_games,#div_android").hide();
 	});
 </script>
 
