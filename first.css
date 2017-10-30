@@ -214,6 +214,7 @@ li {
 
 .btn_group button {
 	display: inline-block;
+	outline: none;
 	margin-left: 17%;
 	margin-bottom: 15px;
 	border-radius: 50%;
