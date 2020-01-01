@@ -48,7 +48,7 @@ body {
     display: block;
     width: 320px;
     height: 320px;
-    background: #CECECE;  
+    background: #CECECE;
     text-align:center;
 
      /* Firefox */
@@ -61,7 +61,7 @@ body {
     display:-webkit-box;
     -webkit-box-pack:center;
     -webkit-box-align:center;
-    -webkit-border-radius: 50%;  
+    -webkit-border-radius: 50%;
 
     /* W3C */
     display:box;
@@ -324,12 +324,12 @@ li {
 }
 
 @-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
+  from { bottom:-100px; opacity:0 }
   to { bottom:0px; opacity:1 }
 }
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
   to{ bottom:0; opacity:1 }
 }
 
