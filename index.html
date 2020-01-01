@@ -228,8 +228,7 @@
 	<div class="btn_group">
 		<button id="All" class="focus">All</button>
 		<button id="Games" class="focus">Games</button>
-		<button id="Android" class="focus">Android</button>
-		<button id="iOS" class="focus">iOS</button>
+		<button id="Mobile" class="focus">Mobile</button>
 	</div>
 	<div id="div_all" class="portfolio">
 		<div class="card">
@@ -249,10 +248,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="div_android" class="portfolio">
-
-	</div>
-	<div id="div_ios" class="portfolio">
+	<div id="div_mobile" class="portfolio">
 
 	</div>
 </section>
@@ -266,22 +262,19 @@
 
 <script>
 	$("#div_all").show();
-	$("#div_games,#div_android,#div_ios").hide();
+	$("#div_games,#div_mobile").hide();
 	$("#All").on('click', function() {
     	$("#div_all").fadeIn();
-    	$("#div_games,#div_android,#div_ios").hide();
+    	$("#div_games,#div_mobile").hide();
 	});
 	$("#Games").on('click', function() {
    		$("#div_games").fadeIn();
-   		$("#div_all,#div_android,#div_ios").hide();
+   		$("#div_all,#div_mobile").hide();
 	});
-	$("#Android").on('click', function() {
-   		$("#div_android").fadeIn();
-   		$("#div_all,#div_games,#div_ios").hide();
+	$("#Mobile").on('click', function() {
+   		$("#div_mobile").fadeIn();
+   		$("#div_all,#div_games").hide();
 	});
-	$("#iOS").on('click', function() {
-   		$("#div_ios").fadeIn();
-   		$("#div_all,#div_games,#div_android").hide();
 	});
 </script>
 
