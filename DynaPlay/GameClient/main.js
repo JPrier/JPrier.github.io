@@ -20,10 +20,10 @@ let render = function() {
   display.drawMap(game.map);
   //TODO draw objects (players, npcs, etc)
   if (game.player) {
-    display.drawObject(game.player);
+    display.drawObject(game.player.shape);
   }
   for (let i = 0; i < game.npcs.length; i++) {
-    display.drawObject(game.npcs[i]);
+    display.drawObject(game.npcs[i].shape);
   }
 
   display.render();
