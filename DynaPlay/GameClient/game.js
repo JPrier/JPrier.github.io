@@ -4,25 +4,65 @@ let random = function(n) {
   return Math.floor(Math.random() * n)
 }
 
+let getRandomColor = function() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+};
+
 const Game = function(gameSettings) {
   this.settings = gameSettings;
   this.map = {};
   this.player = undefined;
   this.npcs = [];
-  this.tileSize = 10;
+  this.tileSize = 5;
   this.sizeX = 300;
   this.sizeY = 300;
+  this.mapGenerator = new MapGenerator(.5);
 
   //TODO: Set these based off of game settings
   this.setup = function() {
     this.map = {
-      objects: [new Shape(0, this.sizeX, this.sizeY, 30, 15, "yellow", false, false)]
+      objects: []
     }
-    this.player = new Player(0, 30, 30, 30, 20, this.settings["playerColor"], true);
+    this.player = new Player(0, 30, 30, 20, 20, this.settings["playerColor"], true);
     this.npcs = [];
     for (let i=0; i<parseInt(this.settings["NPCs"]);i++) {
       this.npcs.push(new NPC(0, random(this.sizeX), random(this.sizeY), 30, 20, this.settings["NPCColor"], true, true));
     }
+  }
+
+  this.createWorld = function() {
+    // TODO: implement a procedural generation that can be as modular as possible
+    // https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php?page=3
+
+    this.map.objects = this.mapGenerator.generateMap(this.sizeX, this.sizeY, this.tileSize);
+
+    //noise.seed(Math.random());
+
+    // for (let i = 0; i <= this.sizeX; i++) {
+    //   for (let j = 0; j <= this.sizeY; j++) {
+    //     // Get a value from perlin noise
+    //     let value = noise.simplex2(i/100, j/100);
+    //     // Decide whether the tile will be filled in
+    //     if (value > .4) {
+    //       this.map.objects.push(
+    //         new StaticObject(
+    //           0,
+    //           i*this.tileSize,
+    //           j*this.tileSize,
+    //           this.tileSize,
+    //           this.tileSize,
+    //           '#' + (Math.floor((Math.abs(value)*1000000))).toString(16).padStart(6, '0'),
+    //           false, false
+    //         )
+    //       );
+    //     }
+    //   }
+    // }
   }
 
   this.updateSize = function(x, y) {
@@ -31,9 +71,6 @@ const Game = function(gameSettings) {
   }
 
   this.update = function() {
-
-    console.log(this.sizeX + ", " + this.sizeY);
-    console.log(this.player.shape.loc_x + ", " + this.player.shape.loc_y);
 
     //TODO: update any objects that need to update on a time_step
     for (let i = 0; i < this.map.objects.length; i++) {
@@ -120,7 +157,7 @@ const Game = function(gameSettings) {
         return true;
       }
     }
-  }
+  };
 
   this.collidesWithNPCs = function(object, j) {
     if (object.shape.collidesWithNPCs) {
@@ -135,27 +172,27 @@ const Game = function(gameSettings) {
         }
       }
     }
-  }
+  };
 
   this.collidesWithCanvas = function(object) {
     if (object.shape.loc_x < 0 ||
         object.shape.loc_y < 0 ||
-        object.shape.loc_x > this.sizeX ||
-        object.shape.loc_y > this.sizeY) {
+        object.shape.loc_x > this.sizeX - object.shape.width ||
+        object.shape.loc_y > this.sizeY - object.shape.height) {
           return true;
         }
-  }
+  };
 
   this.collides = function(object, npcIndex) {
     return (this.collidesWithNPCs(object, npcIndex) ||
             this.collidesWithPlayer(object) ||
             this.collidesWithCanvas(object));
-  }
+  };
 
 };
 Game.prototype = {
   constructor : Game,
-  setup: function(size) {
-    Game.setup(size);
+  setup: function() {
+    Game.setup();
   }
 };

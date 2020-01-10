@@ -11,7 +11,7 @@ let resize = function(event) {
   display.resize(document.documentElement.clientWidth,
                  document.documentElement.clientHeight,
                  scale);
-  //game.updateSize(display.context.canvas.width/scale, display.context.canvas.height/scale);
+  game.updateSize(display.buffer.canvas.width, display.buffer.canvas.height);
 };
 
 let render = function() {
@@ -41,7 +41,6 @@ let update = function() {
 /// OBJECTS
 const mainSetup = function(gameSettings) {
   //INIT
-  console.log(gameSettings);
   game = new Game(gameSettings);
   display = new Display(document.querySelector("canvas"), "black");
   engine = new Engine(1000/30, update, render);
@@ -54,13 +53,16 @@ const mainSetup = function(gameSettings) {
 
   // START
 
-  game.setup();
-  game.updateSize(270, 130);
-
   window.addEventListener("keydown", keyPress);
   window.addEventListener("resize", resize);
 
+  game.setup();
+  display.setCanvasSize(300, 300);
+
   resize();
+
+  game.createWorld();
+
   engine.start();
 }
 
