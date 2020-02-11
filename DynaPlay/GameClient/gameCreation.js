@@ -14,8 +14,8 @@ let settings = {
   "NPCColor": "blue",
   "itemColor": "green",
   "endGoal": [[0,1,2], ["Hit point amount","Die","Last Alive"]],
-  "fillPercent": [0, 100],
-  "randomMethod": [[0,1], ["Random", "Perlin Noise"]]
+  "fillPercent": [0,100],
+  "randomMethod": [[0,1,2,3,4], ["Perlin Noise", "Simplex Noise", "Random", "Cubic Noise", "Buffered Cubic Noise"]]
 }
 
 //Set Body programatically using the gameParams
@@ -62,7 +62,7 @@ let validateParams = function() {
 }
 
 let startGame = function(settings) {
-  document.body.innerHTML = '<canvas width="300" height="300"></canvas>';
+  document.body.innerHTML = '<canvas></canvas>';//'<canvas width="300" height="300"></canvas>';
   mainSetup(settings);
 }
 

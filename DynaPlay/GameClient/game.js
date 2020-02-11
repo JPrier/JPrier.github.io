@@ -19,10 +19,12 @@ const Game = function(gameSettings) {
   this.player = undefined;
   this.npcs = [];
   this.tileSize = 5;
-  this.sizeX = 300;
-  this.sizeY = 300;
+  this.sizeX = 500;
+  this.sizeY = 500;
   this.mapGenerator = new MapGenerator(this.settings["fillPercent"]);
-    //.3 for perlin, .5 for random
+    //.2 for perlin, .3 for simplex, .5 for random
+  this.gravity = .5;
+  this.velocityChange = 5;
 
   //TODO: Set these based off of game settings
   this.setup = function() {
@@ -40,8 +42,18 @@ const Game = function(gameSettings) {
     // TODO: implement a procedural generation that can be as modular as possible
     // https://www.gamasutra.com/view/feature/170049/how_to_make_insane_procedural_.php?page=3
     // https://www.youtube.com/watch?v=v7yyZZjF1z4
+    // http://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1156&context=cscsp
+    // https://www.polygon.com/2013/10/21/4862210/spelunky-randomly-generated-levels-explained
 
-    this.map.objects = this.mapGenerator.generateMap(this.settings["randomMethod"] == 1, this.sizeX, this.sizeY, this.tileSize);
+    this.map.objects = this.mapGenerator.generateMap(this.settings["randomMethod"], this.sizeX, this.sizeY, this.tileSize);
+  }
+
+  this.smoothWorld = function() {
+    this.map.objects = this.mapGenerator.smoothMap(this.map.objects, this.sizeX, this.sizeY);
+  }
+
+  this.connectWorld = function() {
+    this.map.objects = this.mapGenerator.connectMap(this.map.objects, this.sizeX, this.sizeY);
   }
 
   this.updateSize = function(x, y) {
@@ -52,7 +64,19 @@ const Game = function(gameSettings) {
   this.update = function() {
 
     if (this.player) {
-      //TODO: add updates with velocity and gravity
+      //TODO: move collision here to avoid getting the player stuck from velocity
+      this.player.shape.loc_x += this.movementAmount() * this.player.velocityX;
+      this.player.shape.loc_y += this.movementAmount() * this.player.velocityY;
+
+      this.player.velocityX -= this.player.weight * this.gravity;
+      this.player.velocityY -= this.player.weight * this.gravity;
+
+      if (this.player.velocityX < 0) {
+        this.player.velocityX = 0;
+      }
+      if (this.player.velocityY < 0) {
+        this.player.velocityY = 0;
+      }
     }
 
     for (let i = 0; i < this.npcs.length; i++) {
@@ -70,8 +94,10 @@ const Game = function(gameSettings) {
   this.controllerLeft = function() {
     if (this.player) {
       this.player.shape.loc_x -= this.movementAmount();
+      this.player.velocityX = -1*this.velocityChange;
       if (this.collides(this.player, -1)) {
         this.player.shape.loc_x += this.movementAmount();
+        this.player.velocityX = 0;
       }
     }
   };
@@ -79,9 +105,11 @@ const Game = function(gameSettings) {
   this.controllerRight = function() {
     if (this.player) {
       this.player.shape.loc_x += this.movementAmount();
+      this.player.velocityX = this.velocityChange;
     }
     if (this.collides(this.player, -1)) {
       this.player.shape.loc_x -= this.movementAmount();
+      this.player.velocityX = 0;
     }
   };
 
@@ -90,12 +118,14 @@ const Game = function(gameSettings) {
       if (this.settings["worldType"] == "3") {
         //JUMP
         this.player.shape.loc_y -= 2;
-        //TODO: add a velocity that should be updated on each frame
+        this.player.velocityY = -2*this.velocityChange;
       } else {
         this.player.shape.loc_y -= this.movementAmount();
-        if (this.collides(this.player, -1)) {
-          this.player.shape.loc_y += this.movementAmount();
-        }
+        this.player.velocityY = -1*this.velocityChange;
+      }
+      if (this.collides(this.player, -1)) {
+        this.player.shape.loc_y += this.movementAmount();
+        this.player.velocityY = 0;
       }
     }
   };
@@ -103,8 +133,10 @@ const Game = function(gameSettings) {
   this.controllerDown = function() {
     if (this.player) {
       this.player.shape.loc_y += this.movementAmount();
+      this.player.velocityY = this.velocityChange;
       if (this.collides(this.player, -1)) {
         this.player.shape.loc_y -= this.movementAmount();
+        this.player.velocityY = 0;
       }
     }
   };
