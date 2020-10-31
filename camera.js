@@ -57,8 +57,9 @@ function setup() {
 
 function draw() {
 
+	clear()
 
-  	for (var i = 0; i < innerCircleAmt; i++) {
+	for (var i = 0; i < innerCircleAmt; i++) {
 		innerBalls[i].update();
 	}
 

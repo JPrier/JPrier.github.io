@@ -7,7 +7,9 @@ function setup() {
 }
 
 function draw() {
-  
+
+  clear()
+
   let t = frameCount / 60; // update time
 
   // create a random number of snowflakes each frame
