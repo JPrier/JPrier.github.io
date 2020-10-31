@@ -1,6 +1,6 @@
-let numBalls = 13;
-let spring = 0.05;
-let gravity = 0.03;
+let numBalls = 50;
+let spring = 0.15;
+let gravity = 0.04;
 let friction = -0.9;
 let balls = [];
 
