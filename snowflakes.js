@@ -38,12 +38,12 @@ function snowflake() {
 
   this.update = function(time) {
     // x position follows a circle
-    let w = 0.6; // angular speed
+    let w = 0.15; // angular speed
     let angle = w * time + this.initialangle;
     this.posX = width / 2 + this.radius * sin(angle);
 
     // different size snowflakes fall at slightly different y speeds
-    this.posY += pow(this.size, 0.5);
+    this.posY += pow(this.size, 0.15);
 
     // delete snowflake if past end of screen
     if (this.posY > height) {
