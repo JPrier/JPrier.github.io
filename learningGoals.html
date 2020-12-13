@@ -3,29 +3,29 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Tree Example</title>
+    <title>Learning Goals</title>
 
     <style>
 
-	.node {
-		cursor: pointer;
-	}
+    	.node {
+    		cursor: pointer;
+    	}
 
-	.node circle {
-	  fill: #fff;
-	  stroke: steelblue;
-	  stroke-width: 3px;
-	}
+    	.node circle {
+    	  fill: #fff;
+    	  stroke: steelblue;
+    	  stroke-width: 3px;
+    	}
 
-	.node text {
-	  font: 12px sans-serif;
-	}
+    	.node text {
+    	  font: 12px sans-serif;
+    	}
 
-	.link {
-	  fill: none;
-	  stroke: #ccc;
-	  stroke-width: 2px;
-	}
+    	.link {
+    	  fill: none;
+    	  stroke: #ccc;
+    	  stroke-width: 2px;
+    	}
 
     </style>
 
@@ -40,26 +40,26 @@
 
 var treeData = [
   {
-    "name": "Top Level",
+    "name": "Learning Goals",
     "parent": "null",
     "children": [
       {
-        "name": "Level 2: A",
-        "parent": "Top Level",
+        "name": "Languages",
+        "parent": "Learning Goals",
         "children": [
           {
-            "name": "Son of A",
-            "parent": "Level 2: A"
+            "name": "Assembly",
+            "parent": "Languages"
           },
           {
-            "name": "Daughter of A",
-            "parent": "Level 2: A"
+            "name": "C",
+            "parent": "Languages"
           }
         ]
       },
       {
-        "name": "Level 2: B",
-        "parent": "Top Level"
+        "name": "Machine Learning",
+        "parent": "Learning Goals"
       }
     ]
   }
