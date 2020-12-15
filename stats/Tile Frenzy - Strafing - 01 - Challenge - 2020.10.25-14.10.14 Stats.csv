@@ -1,0 +1,93 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,14:09:44.879,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+2,14:09:45.410,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+3,14:09:46.218,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.442s,2,1,0.5,100,400,0.25,false
+4,14:09:46.558,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+5,14:09:46.958,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+6,14:09:47.362,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+7,14:09:47.879,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+8,14:09:48.499,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+9,14:09:49.739,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.88s,3,1,0.333,100,600,0.167,false
+10,14:09:50.096,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+11,14:09:50.436,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+12,14:09:50.840,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+13,14:09:51.200,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+14,14:09:52.153,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.373s,2,1,0.5,100,400,0.25,false
+15,14:09:52.353,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+16,14:09:52.882,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+17,14:09:53.269,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+18,14:09:53.666,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+19,14:09:54.042,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+20,14:09:54.447,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+21,14:09:54.850,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+22,14:09:55.296,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+23,14:09:55.673,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+24,14:09:56.080,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+25,14:09:56.520,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+26,14:09:56.936,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+27,14:09:57.373,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+28,14:09:57.894,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+29,14:09:58.344,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+30,14:09:59.122,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+31,14:09:59.559,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+32,14:09:59.752,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+33,14:10:00.032,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+34,14:10:00.814,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.312s,2,1,0.5,100,400,0.25,false
+35,14:10:01.338,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+36,14:10:01.946,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+37,14:10:02.473,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+38,14:10:02.926,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+39,14:10:03.450,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+40,14:10:04.014,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+41,14:10:04.540,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+42,14:10:04.827,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+43,14:10:05.240,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+44,14:10:05.640,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+45,14:10:06.080,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+46,14:10:06.437,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+47,14:10:06.964,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+48,14:10:07.423,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+49,14:10:07.935,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+50,14:10:08.421,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+51,14:10:09.071,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+52,14:10:09.558,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+53,14:10:09.831,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+54,14:10:10.328,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+55,14:10:10.768,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+56,14:10:11.281,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+57,14:10:11.517,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+58,14:10:11.914,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+59,14:10:12.182,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+60,14:10:12.725,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+61,14:10:13.487,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.249s,2,1,0.5,100,400,0.25,false
+62,14:10:13.861,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+TileFrenzy Challenge,68,62,6200.0,13600.0,
+
+Kills:,62
+Deaths:,0
+Fight Time:,2.263
+Avg TTK:,0.484
+Damage Done:,6200.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,56.529411
+Scenario:,Tile Frenzy - Strafing - 01
+Hash:,de995d9d66c7950c6dcb779ce6bc50a0
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.8
+Vert Sens:,1.8
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

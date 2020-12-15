@@ -1,0 +1,60 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,17:55:43.818,Long Strafe Bot,ADSable Hitscan Cone,1.658s,923,556,0.602,508,840,0.605,false
+2,17:55:47.528,Long Strafe Bot,ADSable Hitscan Cone,2.959s,1638,568,0.347,518,1490,0.348,false
+3,17:55:50.407,Long Strafe Bot,ADSable Hitscan Cone,2.28s,1264,535,0.423,484,1150,0.421,false
+4,17:55:54.179,Long Strafe Bot,ADSable Hitscan Cone,3.301s,1825,716,0.392,653,1660,0.393,false
+5,17:55:56.728,Long Strafe Bot,ADSable Hitscan Cone,2.036s,1132,399,0.352,357,1030,0.347,false
+6,17:56:00.847,Long Strafe Bot,ADSable Hitscan Cone,3.298s,1825,501,0.275,501,1660,0.302,false
+7,17:56:04.322,Long Strafe Bot,ADSable Hitscan Cone,2.698s,1495,528,0.353,501,1360,0.368,false
+8,17:56:08.740,Long Strafe Bot,ADSable Hitscan Cone,4.185s,1671,543,0.325,502,1520,0.33,false
+9,17:56:11.446,Long Strafe Bot,ADSable Hitscan Cone,2.237s,1242,557,0.448,506,1130,0.448,false
+10,17:56:15.414,Long Strafe Bot,ADSable Hitscan Cone,3.417s,1891,540,0.286,501,1720,0.291,false
+11,17:56:19.228,Long Strafe Bot,ADSable Hitscan Cone,2.517s,1396,554,0.397,506,1270,0.398,false
+12,17:56:22.453,Long Strafe Bot,ADSable Hitscan Cone,2.761s,1528,539,0.353,501,1390,0.36,false
+13,17:56:25.614,Long Strafe Bot,ADSable Hitscan Cone,2.018s,1121,552,0.492,506,1020,0.496,false
+14,17:56:28.978,Long Strafe Bot,ADSable Hitscan Cone,2.978s,1649,543,0.329,505,1500,0.337,false
+15,17:56:34.495,Long Strafe Bot,ADSable Hitscan Cone,4.778s,2639,584,0.221,584,2400,0.243,false
+16,17:56:37.276,Long Strafe Bot,ADSable Hitscan Cone,2.544s,1407,420,0.299,420,1280,0.328,false
+17,17:56:40.991,Long Strafe Bot,ADSable Hitscan Cone,2.576s,1429,550,0.385,509,1300,0.392,false
+18,17:56:43.395,Long Strafe Bot,ADSable Hitscan Cone,1.518s,846,544,0.643,504,770,0.655,false
+19,17:56:47.508,Long Strafe Bot,ADSable Hitscan Cone,3.6s,1990,551,0.277,506,1810,0.28,false
+20,17:56:51.733,Long Strafe Bot,ADSable Hitscan Cone,3.28s,1814,540,0.298,502,1650,0.304,false
+21,17:56:54.637,Long Strafe Bot,ADSable Hitscan Cone,2.059s,1143,539,0.472,505,1040,0.486,false
+22,17:56:58.211,Long Strafe Bot,ADSable Hitscan Cone,2.339s,1297,612,0.472,601,1180,0.509,false
+23,17:57:01.135,Long Strafe Bot,ADSable Hitscan Cone,2.703s,1429,438,0.307,411,1300,0.316,false
+24,17:57:04.846,Long Strafe Bot,ADSable Hitscan Cone,3.157s,1748,552,0.316,507,1590,0.319,false
+25,17:57:08.299,Long Strafe Bot,ADSable Hitscan Cone,2.439s,1352,529,0.391,506,1230,0.411,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+ADSable Hitscan Cone,38805,13907,12991.0,35300.0,
+
+Kills:,25
+Deaths:,0
+Fight Time:,69.335999
+Avg TTK:,0
+Damage Done:,12991.0
+Damage Taken:,0.0
+Midairs:,250
+Midaired:,0
+Directs:,916
+Directed:,0
+Distance Traveled:,0.0
+Score:,4780.908691
+Scenario:,Ascended Tracking v3
+Hash:,46026d159b844451a38af3608d7c9e8a
+Game Version:,2.0.3.0
+Challenge Start:,17:55:40.559
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,289.662659
+Resolution Scale,100.0

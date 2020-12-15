@@ -1,0 +1,48 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,17:36:44.554,Long Strafe Bot,ADSable Hitscan Cone,2.78s,1539,553,0.359,506,1400,0.361,false
+2,17:36:48.496,Long Strafe Bot,ADSable Hitscan Cone,2.92s,1616,540,0.334,507,1470,0.345,false
+3,17:36:54.696,Long Strafe Bot,ADSable Hitscan Cone,5.357s,2958,558,0.189,514,2690,0.191,false
+4,17:36:59.231,Long Strafe Bot,ADSable Hitscan Cone,4.287s,2280,487,0.214,487,2073,0.235,false
+5,17:37:02.257,Long Strafe Bot,ADSable Hitscan Cone,2.56s,1418,555,0.391,507,1290,0.393,false
+6,17:37:06.365,Long Strafe Bot,ADSable Hitscan Cone,3.866s,2045,504,0.246,504,1860,0.271,false
+7,17:37:12.093,Long Strafe Bot,ADSable Hitscan Cone,5.3s,2925,550,0.188,502,2660,0.189,false
+8,17:37:18.644,Long Strafe Bot,ADSable Hitscan Cone,5.039s,2782,552,0.198,500,2530,0.198,false
+9,17:37:25.869,Long Strafe Bot,ADSable Hitscan Cone,6.279s,3464,561,0.162,509,3150,0.162,false
+10,17:37:30.195,Long Strafe Bot,ADSable Hitscan Cone,4.065s,1858,501,0.27,501,1690,0.296,false
+11,17:37:34.663,Long Strafe Bot,ADSable Hitscan Cone,3.86s,2133,511,0.24,509,1940,0.262,false
+12,17:37:43.112,Long Strafe Bot,ADSable Hitscan Cone,8.19s,4234,502,0.119,502,3850,0.13,false
+13,17:37:50.340,Long Strafe Bot,ADSable Hitscan Cone,6.969s,3651,707,0.194,651,3320,0.196,false
+14,17:37:53.938,Long Strafe Bot,ADSable Hitscan Cone,3.339s,1847,385,0.208,353,1680,0.21,false
+15,17:37:59.328,Long Strafe Bot,ADSable Hitscan Cone,5.13s,2595,550,0.212,508,2360,0.215,false
+16,17:38:03.599,Long Strafe Bot,ADSable Hitscan Cone,4.008s,2111,544,0.258,509,1920,0.265,false
+17,17:38:09.526,Long Strafe Bot,ADSable Hitscan Cone,5.667s,2826,644,0.228,587,2570,0.228,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+ADSable Hitscan Cone,43019,9385,8837.0,39123.0,
+
+Kills:,17
+Deaths:,0
+Fight Time:,79.615997
+Avg TTK:,5.294
+Damage Done:,8837.0
+Damage Taken:,0.0
+Midairs:,283
+Midaired:,0
+Directs:,548
+Directed:,0
+Distance Traveled:,0.0
+Score:,1996.078247
+Scenario:,Ascended Tracking v3
+Hash:,46026d159b844451a38af3608d7c9e8a
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Overwatch
+Horiz Sens:,4.0
+Vert Sens:,4.0
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

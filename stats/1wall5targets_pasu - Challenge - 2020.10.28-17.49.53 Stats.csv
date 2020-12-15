@@ -1,0 +1,55 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,17:48:28.684,test,pistol,0s,1,1,1,1000,2000,0.5,false
+2,17:48:29.375,test,pistol,0s,1,1,1,1000,2000,0.5,false
+3,17:48:29.859,test,pistol,0s,1,1,1,1000,2000,0.5,false
+4,17:48:35.019,test,pistol,3.992s,2,1,0.5,1000,4000,0.25,false
+5,17:48:41.498,test,pistol,5.702s,5,1,0.2,1000,10000,0.1,false
+6,17:48:46.483,test,pistol,3.568s,3,1,0.333,1000,6000,0.167,false
+7,17:48:48.812,test,pistol,1.795s,2,1,0.5,1000,4000,0.25,false
+8,17:48:51.475,test,pistol,1.447s,2,1,0.5,1000,4000,0.25,false
+9,17:49:05.466,test,pistol,12.557s,11,1,0.091,1000,22000,0.045,false
+10,17:49:07.986,test,pistol,0.744s,2,1,0.5,1000,4000,0.25,false
+11,17:49:11.835,test,pistol,2.448s,4,1,0.25,1000,8000,0.125,false
+12,17:49:12.402,test,pistol,0s,1,1,1,1000,2000,0.5,false
+13,17:49:16.449,test,pistol,3.275s,4,1,0.25,1000,8000,0.125,false
+14,17:49:19.757,test,pistol,2.288s,3,1,0.333,1000,6000,0.167,false
+15,17:49:25.059,test,pistol,4.054s,4,1,0.25,1000,8000,0.125,false
+16,17:49:30.554,test,pistol,2.576s,3,1,0.333,1000,6000,0.167,false
+17,17:49:33.425,test,pistol,0.544s,2,1,0.5,1000,4000,0.25,false
+18,17:49:34.303,test,pistol,0s,1,1,1,1000,2000,0.5,false
+19,17:49:41.008,test,pistol,5.358s,4,1,0.25,1000,8000,0.125,false
+20,17:49:45.336,test,pistol,2.711s,4,1,0.25,1000,8000,0.125,false
+21,17:49:47.451,test,pistol,1.288s,2,1,0.5,1000,4000,0.25,false
+22,17:49:49.046,test,pistol,0s,1,1,1,1000,2000,0.5,false
+23,17:49:53.055,test,pistol,2.135s,2,1,0.5,1000,4000,0.25,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,65,23,23000.0,130000.0,
+Track Master 100,0,0,0.0,0.0,
+
+Kills:,23
+Deaths:,0
+Fight Time:,56.481998
+Avg TTK:,3.727
+Damage Done:,23000.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,8.138462
+Scenario:,1wall5targets_pasu
+Hash:,a5be19c6e6aeb0d774c5e9d9fb497e91
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Overwatch
+Horiz Sens:,4.0
+Vert Sens:,4.0
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

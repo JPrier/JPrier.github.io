@@ -1,0 +1,36 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,20:56:12.187,Thin very long strafe,Track Master 100,7.587s,760,200,0.263,200,760,0.263,false
+2,20:56:26.632,Thin very long strafe,Track Master 100,11.828s,1184,200,0.169,200,1184,0.169,false
+3,20:56:37.783,Thin very long strafe,Track Master 100,8.718s,873,200,0.229,200,873,0.229,false
+4,20:56:48.341,Thin very long strafe,Track Master 100,10.308s,855,200,0.234,200,855,0.234,false
+5,20:57:01.474,Thin very long strafe,Track Master 100,12.883s,1132,200,0.177,200,1132,0.177,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,4809,1000,1000.0,4809.0,
+
+Kills:,5
+Deaths:,0
+Fight Time:,51.324001
+Avg TTK:,12
+Damage Done:,1000.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,1000.0
+Scenario:,Thin Aiming Long
+Hash:,3a5aabeed03bd10e4d437104ff1b425b
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

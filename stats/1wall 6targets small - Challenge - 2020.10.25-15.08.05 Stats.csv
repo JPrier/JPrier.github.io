@@ -1,0 +1,97 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,15:07:06.143,target,BB Gun,0s,1,1,1,1,1,1,false
+2,15:07:06.983,target,BB Gun,0s,1,1,1,1,1,1,false
+3,15:07:07.634,target,BB Gun,0s,1,1,1,1,1,1,false
+4,15:07:08.688,target,BB Gun,0s,1,1,1,1,1,1,false
+5,15:07:09.379,target,BB Gun,0s,1,1,1,1,1,1,false
+6,15:07:10.601,target,BB Gun,0.299s,2,1,0.5,1,2,0.5,false
+7,15:07:11.334,target,BB Gun,0s,1,1,1,1,1,1,false
+8,15:07:12.232,target,BB Gun,0s,1,1,1,1,1,1,false
+9,15:07:13.245,target,BB Gun,0s,1,1,1,1,1,1,false
+10,15:07:14.012,target,BB Gun,0s,1,1,1,1,1,1,false
+11,15:07:14.932,target,BB Gun,0s,1,1,1,1,1,1,false
+12,15:07:15.753,target,BB Gun,0s,1,1,1,1,1,1,false
+13,15:07:16.491,target,BB Gun,0.001s,1,1,1,1,1,1,false
+14,15:07:17.033,target,BB Gun,0s,1,1,1,1,1,1,false
+15,15:07:17.560,target,BB Gun,0s,1,1,1,1,1,1,false
+16,15:07:18.507,target,BB Gun,0s,1,1,1,1,1,1,false
+17,15:07:19.197,target,BB Gun,0s,1,1,1,1,1,1,false
+18,15:07:20.987,target,BB Gun,0.896s,2,1,0.5,1,2,0.5,false
+19,15:07:21.423,target,BB Gun,0s,1,1,1,1,1,1,false
+20,15:07:22.161,target,BB Gun,0s,1,1,1,1,1,1,false
+21,15:07:22.889,target,BB Gun,0s,1,1,1,1,1,1,false
+22,15:07:23.645,target,BB Gun,0s,1,1,1,1,1,1,false
+23,15:07:24.285,target,BB Gun,0s,1,1,1,1,1,1,false
+24,15:07:25.183,target,BB Gun,0s,1,1,1,1,1,1,false
+25,15:07:26.323,target,BB Gun,0s,1,1,1,1,1,1,false
+26,15:07:26.951,target,BB Gun,0s,1,1,1,1,1,1,false
+27,15:07:28.963,target,BB Gun,1.196s,3,1,0.333,1,3,0.333,false
+28,15:07:30.307,target,BB Gun,0s,1,1,1,1,1,1,false
+29,15:07:31.457,target,BB Gun,0s,1,1,1,1,1,1,false
+30,15:07:32.957,target,BB Gun,0.897s,2,1,0.5,1,2,0.5,false
+31,15:07:33.921,target,BB Gun,0s,1,1,1,1,1,1,false
+32,15:07:35.008,target,BB Gun,0s,1,1,1,1,1,1,false
+33,15:07:35.811,target,BB Gun,0s,1,1,1,1,1,1,false
+34,15:07:36.624,target,BB Gun,0s,1,1,1,1,1,1,false
+35,15:07:37.411,target,BB Gun,0s,1,1,1,1,1,1,false
+36,15:07:38.179,target,BB Gun,0s,1,1,1,1,1,1,false
+37,15:07:39.102,target,BB Gun,0s,1,1,1,1,1,1,false
+38,15:07:39.996,target,BB Gun,0s,1,1,1,1,1,1,false
+39,15:07:40.843,target,BB Gun,0s,1,1,1,1,1,1,false
+40,15:07:41.840,target,BB Gun,0s,1,1,1,1,1,1,false
+41,15:07:42.838,target,BB Gun,0s,1,1,1,1,1,1,false
+42,15:07:43.528,target,BB Gun,0.001s,1,1,1,1,1,1,false
+43,15:07:44.398,target,BB Gun,0.001s,1,1,1,1,1,1,false
+44,15:07:45.611,target,BB Gun,0s,1,1,1,1,1,1,false
+45,15:07:46.544,target,BB Gun,0s,1,1,1,1,1,1,false
+46,15:07:47.565,target,BB Gun,0s,1,1,1,1,1,1,false
+47,15:07:48.202,target,BB Gun,0s,1,1,1,1,1,1,false
+48,15:07:48.932,target,BB Gun,0s,1,1,1,1,1,1,false
+49,15:07:49.992,target,BB Gun,0s,1,1,1,1,1,1,false
+50,15:07:50.829,target,BB Gun,0s,1,1,1,1,1,1,false
+51,15:07:51.656,target,BB Gun,0s,1,1,1,1,1,1,false
+52,15:07:52.650,target,BB Gun,0.001s,1,1,1,1,1,1,false
+53,15:07:53.459,target,BB Gun,0s,1,1,1,1,1,1,false
+54,15:07:55.378,target,BB Gun,1.035s,2,1,0.5,1,2,0.5,false
+55,15:07:55.976,target,BB Gun,0s,1,1,1,1,1,1,false
+56,15:07:56.683,target,BB Gun,0s,1,1,1,1,1,1,false
+57,15:07:57.356,target,BB Gun,0s,1,1,1,1,1,1,false
+58,15:07:58.704,target,BB Gun,0.764s,2,1,0.5,1,2,0.5,false
+59,15:07:59.234,target,BB Gun,0s,1,1,1,1,1,1,false
+60,15:08:00.031,target,BB Gun,0s,1,1,1,1,1,1,false
+61,15:08:01.049,target,BB Gun,0s,1,1,1,1,1,1,false
+62,15:08:01.923,target,BB Gun,0s,1,1,1,1,1,1,false
+63,15:08:02.420,target,BB Gun,0.001s,1,1,1,1,1,1,false
+64,15:08:03.396,target,BB Gun,0s,1,1,1,1,1,1,false
+65,15:08:04.327,target,BB Gun,0s,1,1,1,1,1,1,false
+66,15:08:05.076,target,BB Gun,0s,1,1,1,1,1,1,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+BB Gun,73,66,66.0,73.0,
+
+Kills:,66
+Deaths:,0
+Fight Time:,5.092
+Avg TTK:,0.909
+Damage Done:,66.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,596.712341
+Scenario:,1wall 6targets small
+Hash:,7378a811f430b6072d052a75896afb98
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.2
+Vert Sens:,1.2
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

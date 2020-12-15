@@ -1,0 +1,36 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,19:36:33.399,Quaker Bot Fast Strafes,LG,8.647s,189,50,0.265,300,1134,0.265,false
+2,19:36:45.421,Quaker Bot Fast Strafes,LG,11.756s,211,50,0.237,300,1266,0.237,false
+3,19:36:59.551,Quaker Bot Fast Strafes,LG,12.141s,265,50,0.189,300,1590,0.189,false
+4,19:37:11.452,Quaker Bot Fast Strafes,LG,9.797s,214,50,0.234,300,1284,0.234,false
+5,19:37:22.731,Quaker Bot Fast Strafes,LG,9.291s,203,50,0.246,300,1218,0.246,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,1084,250,1500.0,6504.0,
+
+Kills:,5
+Deaths:,0
+Fight Time:,51.632
+Avg TTK:,12
+Damage Done:,1500.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,1037.822876
+Scenario:,Cata IC Fast Strafes
+Hash:,ae0024fa5045348cf5200beda4716333
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Overwatch
+Horiz Sens:,4.0
+Vert Sens:,4.0
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

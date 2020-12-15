@@ -1,0 +1,36 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,21:25:55.382,Thin very long strafe,Track Master 100,8.717s,873,200,0.229,200,873,0.229,false
+2,21:26:06.939,Thin very long strafe,Track Master 100,11.308s,925,200,0.216,200,925,0.216,false
+3,21:26:18.272,Thin very long strafe,Track Master 100,11.082s,939,200,0.213,200,939,0.213,false
+4,21:26:28.291,Thin very long strafe,Track Master 100,9.762s,744,200,0.269,200,744,0.269,false
+5,21:26:41.026,Thin very long strafe,Track Master 100,12.486s,985,200,0.203,200,985,0.203,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Track Master 100,4632,1025,1025.0,4632.0,
+
+Kills:,5
+Deaths:,0
+Fight Time:,53.355
+Avg TTK:,12
+Damage Done:,1025.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,1025.0
+Scenario:,Thin Aiming Long
+Hash:,3a5aabeed03bd10e4d437104ff1b425b
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Overwatch
+Horiz Sens:,4.0
+Vert Sens:,4.0
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

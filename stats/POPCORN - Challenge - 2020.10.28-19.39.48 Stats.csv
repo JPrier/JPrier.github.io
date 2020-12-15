@@ -1,0 +1,35 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,19:38:55.621,Pigeon4,pistol,5.016s,4,1,0.25,100,800,0.125,false
+2,19:39:25.248,Pigeon3,pistol,27.591s,19,1,0.053,100,3800,0.026,false
+3,19:39:34.909,Pigeon4,pistol,7.045s,7,1,0.143,100,1400,0.071,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,39,3,300.0,7800.0,
+LG,0,0,0.0,0.0,
+
+Kills:,3
+Deaths:,0
+Fight Time:,39.652
+Avg TTK:,20
+Damage Done:,300.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,25.384617
+Scenario:,POPCORN
+Hash:,21f0bc5b7d01c9cc8a25f4e5a195770b
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Overwatch
+Horiz Sens:,4.0
+Vert Sens:,4.0
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

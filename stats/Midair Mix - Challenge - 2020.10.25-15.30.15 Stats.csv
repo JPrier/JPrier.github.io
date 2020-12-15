@@ -1,0 +1,42 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,15:29:20.130,Pigeon,Rocket Launcher,2.804s,4,0,0,0,480,0,false
+2,15:29:28.977,Pigeon,Rocket Launcher,6.697s,6,3,0.5,179.906,720,0.25,false
+3,15:29:33.454,Pigeon,Rocket Launcher,3.829s,5,5,1,190.414,600,0.317,false
+4,15:29:37.584,Pigeon,Rocket Launcher,3.819s,5,5,1,254.895,600,0.425,false
+5,15:29:41.095,Pigeon,Rocket Launcher,3.05s,3,1,0.333,43.212,360,0.12,false
+6,15:29:44.761,Pigeon,Rocket Launcher,2.622s,4,3,0.75,61.353,480,0.128,false
+7,15:29:48.814,Pigeon,Rocket Launcher,3.292s,4,2,0.5,150.573,480,0.314,false
+8,15:29:53.202,Pigeon,Rocket Launcher,3.841s,5,4,0.8,136.971,600,0.228,false
+10,15:30:12.001,Pigeon,Rocket Launcher,17.229s,24,10,0.417,343.538,2880,0.119,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Rocket Launcher,63,35,1409.912842,7560.0,
+LG,0,0,0.0,0.0,
+Railgun,0,0,0.0,0.0,
+
+Kills:,10
+Deaths:,0
+Fight Time:,51.023998
+Avg TTK:,6
+Damage Done:,1409.912842
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,4
+Directed:,0
+Distance Traveled:,0.0
+Score:,1409.912842
+Scenario:,Midair Mix
+Hash:,b83cec2236949f538f5e62423030faaf
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.2
+Vert Sens:,1.2
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

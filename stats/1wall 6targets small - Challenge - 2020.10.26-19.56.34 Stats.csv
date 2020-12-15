@@ -1,0 +1,93 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,19:55:35.612,target,BB Gun,0s,1,1,1,1,1,1,false
+2,19:55:36.439,target,BB Gun,0s,1,1,1,1,1,1,false
+3,19:55:37.667,target,BB Gun,0.761s,2,1,0.5,1,2,0.5,false
+4,19:55:38.511,target,BB Gun,0s,1,1,1,1,1,1,false
+5,19:55:39.534,target,BB Gun,0s,1,1,1,1,1,1,false
+6,19:55:40.437,target,BB Gun,0s,1,1,1,1,1,1,false
+7,19:55:41.024,target,BB Gun,0s,1,1,1,1,1,1,false
+8,19:55:41.714,target,BB Gun,0s,1,1,1,1,1,1,false
+9,19:55:42.648,target,BB Gun,0s,1,1,1,1,1,1,false
+10,19:55:43.395,target,BB Gun,0s,1,1,1,1,1,1,false
+11,19:55:45.316,target,BB Gun,0.998s,2,1,0.5,1,2,0.5,false
+12,19:55:46.190,target,BB Gun,0.001s,1,1,1,1,1,1,false
+13,19:55:46.897,target,BB Gun,0s,1,1,1,1,1,1,false
+14,19:55:47.611,target,BB Gun,0s,1,1,1,1,1,1,false
+15,19:55:48.710,target,BB Gun,0s,1,1,1,1,1,1,false
+16,19:55:49.390,target,BB Gun,0s,1,1,1,1,1,1,false
+17,19:55:50.287,target,BB Gun,0s,1,1,1,1,1,1,false
+18,19:55:50.850,target,BB Gun,0s,1,1,1,1,1,1,false
+19,19:55:51.645,target,BB Gun,0s,1,1,1,1,1,1,false
+20,19:55:52.535,target,BB Gun,0s,1,1,1,1,1,1,false
+21,19:55:53.211,target,BB Gun,0s,1,1,1,1,1,1,false
+22,19:55:53.957,target,BB Gun,0.486s,2,1,0.5,1,2,0.5,false
+23,19:55:54.844,target,BB Gun,0s,1,1,1,1,1,1,false
+24,19:55:55.665,target,BB Gun,0s,1,1,1,1,1,1,false
+25,19:55:56.661,target,BB Gun,0s,1,1,1,1,1,1,false
+26,19:55:57.932,target,BB Gun,0.706s,2,1,0.5,1,2,0.5,false
+27,19:55:58.529,target,BB Gun,0s,1,1,1,1,1,1,false
+28,19:55:59.002,target,BB Gun,0s,1,1,1,1,1,1,false
+29,19:56:00.113,target,BB Gun,0.001s,1,1,1,1,1,1,false
+30,19:56:01.692,target,BB Gun,0.823s,2,1,0.5,1,2,0.5,false
+31,19:56:02.409,target,BB Gun,0s,1,1,1,1,1,1,false
+32,19:56:03.063,target,BB Gun,0s,1,1,1,1,1,1,false
+33,19:56:03.923,target,BB Gun,0s,1,1,1,1,1,1,false
+34,19:56:04.647,target,BB Gun,0s,1,1,1,1,1,1,false
+35,19:56:05.327,target,BB Gun,0s,1,1,1,1,1,1,false
+36,19:56:06.033,target,BB Gun,0s,1,1,1,1,1,1,false
+37,19:56:07.049,target,BB Gun,0s,1,1,1,1,1,1,false
+38,19:56:07.970,target,BB Gun,0s,1,1,1,1,1,1,false
+39,19:56:08.958,target,BB Gun,0s,1,1,1,1,1,1,false
+40,19:56:10.270,target,BB Gun,0.612s,2,1,0.5,1,2,0.5,false
+41,19:56:11.039,target,BB Gun,0s,1,1,1,1,1,1,false
+42,19:56:12.189,target,BB Gun,0s,1,1,1,1,1,1,false
+43,19:56:12.983,target,BB Gun,0s,1,1,1,1,1,1,false
+44,19:56:15.387,target,BB Gun,1.507s,3,1,0.333,1,3,0.333,false
+45,19:56:16.326,target,BB Gun,0s,1,1,1,1,1,1,false
+46,19:56:17.894,target,BB Gun,0.807s,2,1,0.5,1,2,0.5,false
+47,19:56:18.841,target,BB Gun,0.001s,1,1,1,1,1,1,false
+48,19:56:19.630,target,BB Gun,0s,1,1,1,1,1,1,false
+49,19:56:20.484,target,BB Gun,0s,1,1,1,1,1,1,false
+50,19:56:21.191,target,BB Gun,0s,1,1,1,1,1,1,false
+51,19:56:23.001,target,BB Gun,1.163s,2,1,0.5,1,2,0.5,false
+52,19:56:24.362,target,BB Gun,0s,1,1,1,1,1,1,false
+53,19:56:26.179,target,BB Gun,0.967s,2,1,0.5,1,2,0.5,false
+54,19:56:26.695,target,BB Gun,0s,1,1,1,1,1,1,false
+55,19:56:27.545,target,BB Gun,0s,1,1,1,1,1,1,false
+56,19:56:28.402,target,BB Gun,0s,1,1,1,1,1,1,false
+57,19:56:29.270,target,BB Gun,0.001s,1,1,1,1,1,1,false
+58,19:56:30.043,target,BB Gun,0s,1,1,1,1,1,1,false
+59,19:56:31.170,target,BB Gun,0s,1,1,1,1,1,1,false
+60,19:56:32.113,target,BB Gun,0s,1,1,1,1,1,1,false
+61,19:56:33.301,target,BB Gun,0s,1,1,1,1,1,1,false
+62,19:56:34.125,target,BB Gun,0s,1,1,1,1,1,1,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+BB Gun,73,62,62.0,73.0,
+
+Kills:,62
+Deaths:,0
+Fight Time:,8.834
+Avg TTK:,0.968
+Damage Done:,62.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,526.575317
+Scenario:,1wall 6targets small
+Hash:,7378a811f430b6072d052a75896afb98
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.2
+Vert Sens:,1.2
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

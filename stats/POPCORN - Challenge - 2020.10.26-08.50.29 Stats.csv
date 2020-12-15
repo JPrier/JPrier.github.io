@@ -1,0 +1,36 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,08:49:33.865,Pigeon2,pistol,3.033s,4,1,0.25,100,800,0.125,false
+2,08:49:56.560,Pigeon2,pistol,17.555s,15,1,0.067,100,3000,0.033,false
+3,08:50:02.239,Pigeon,pistol,4.062s,4,1,0.25,100,800,0.125,false
+4,08:50:09.115,Pigeon4,pistol,4.559s,3,1,0.333,100,600,0.167,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,37,4,400.0,7400.0,
+LG,0,0,0.0,0.0,
+
+Kills:,4
+Deaths:,0
+Fight Time:,29.209
+Avg TTK:,15
+Damage Done:,400.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,47.56757
+Scenario:,POPCORN
+Hash:,21f0bc5b7d01c9cc8a25f4e5a195770b
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.2
+Vert Sens:,1.2
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00

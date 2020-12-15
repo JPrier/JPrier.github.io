@@ -1,0 +1,108 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,15:30:26.422,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+2,15:30:27.283,target,pistol mini,0.458s,2,1,0.5,25,100,0.25,false
+3,15:30:27.630,target,pistol mini,0s,1,1,1,25,50,0.5,false
+4,15:30:27.983,target,pistol mini,0s,1,1,1,25,50,0.5,false
+5,15:30:28.300,target,pistol mini,0s,1,1,1,25,50,0.5,false
+6,15:30:28.837,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+7,15:30:29.247,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+8,15:30:29.580,target,pistol mini,0s,1,1,1,25,50,0.5,false
+9,15:30:29.994,target,pistol mini,0s,1,1,1,25,50,0.5,false
+10,15:30:30.711,target,pistol mini,0.367s,2,1,0.5,25,100,0.25,false
+11,15:30:31.128,target,pistol mini,0s,1,1,1,25,50,0.5,false
+12,15:30:31.448,target,pistol mini,0s,1,1,1,25,50,0.5,false
+13,15:30:31.748,target,pistol mini,0s,1,1,1,25,50,0.5,false
+14,15:30:32.048,target,pistol mini,0s,1,1,1,25,50,0.5,false
+15,15:30:32.421,target,pistol mini,0s,1,1,1,25,50,0.5,false
+16,15:30:32.711,target,pistol mini,0s,1,1,1,25,50,0.5,false
+17,15:30:33.004,target,pistol mini,0s,1,1,1,25,50,0.5,false
+18,15:30:33.271,target,pistol mini,0s,1,1,1,25,50,0.5,false
+19,15:30:33.694,target,pistol mini,0s,1,1,1,25,50,0.5,false
+20,15:30:34.024,target,pistol mini,0s,1,1,1,25,50,0.5,false
+21,15:30:34.372,target,pistol mini,0s,1,1,1,25,50,0.5,false
+22,15:30:35.085,target,pistol mini,0.383s,2,1,0.5,25,100,0.25,false
+23,15:30:35.465,target,pistol mini,0s,1,1,1,25,50,0.5,false
+24,15:30:35.825,target,pistol mini,0s,1,1,1,25,50,0.5,false
+25,15:30:36.121,target,pistol mini,0s,1,1,1,25,50,0.5,false
+26,15:30:36.525,target,pistol mini,0s,1,1,1,25,50,0.5,false
+27,15:30:36.975,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+28,15:30:37.191,target,pistol mini,0s,1,1,1,25,50,0.5,false
+29,15:30:37.475,target,pistol mini,0s,1,1,1,25,50,0.5,false
+30,15:30:37.802,target,pistol mini,0s,1,1,1,25,50,0.5,false
+31,15:30:38.206,target,pistol mini,0s,1,1,1,25,50,0.5,false
+32,15:30:38.496,target,pistol mini,0s,1,1,1,25,50,0.5,false
+33,15:30:38.807,target,pistol mini,0s,1,1,1,25,50,0.5,false
+34,15:30:39.197,target,pistol mini,0s,1,1,1,25,50,0.5,false
+35,15:30:39.597,target,pistol mini,0s,1,1,1,25,50,0.5,false
+36,15:30:39.984,target,pistol mini,0s,1,1,1,25,50,0.5,false
+37,15:30:40.267,target,pistol mini,0s,1,1,1,25,50,0.5,false
+38,15:30:40.581,target,pistol mini,0s,1,1,1,25,50,0.5,false
+39,15:30:40.944,target,pistol mini,0s,1,1,1,25,50,0.5,false
+40,15:30:41.348,target,pistol mini,0s,1,1,1,25,50,0.5,false
+41,15:30:42.310,target,pistol mini,0.645s,3,1,0.333,25,150,0.167,false
+42,15:30:42.663,target,pistol mini,0s,1,1,1,25,50,0.5,false
+43,15:30:43.073,target,pistol mini,0s,1,1,1,25,50,0.5,false
+44,15:30:43.331,target,pistol mini,0s,1,1,1,25,50,0.5,false
+45,15:30:43.784,target,pistol mini,0s,1,1,1,25,50,0.5,false
+46,15:30:43.968,target,pistol mini,0s,1,1,1,25,50,0.5,false
+47,15:30:44.194,target,pistol mini,0s,1,1,1,25,50,0.5,false
+48,15:30:44.557,target,pistol mini,0s,1,1,1,25,50,0.5,false
+49,15:30:44.804,target,pistol mini,0s,1,1,1,25,50,0.5,false
+50,15:30:45.104,target,pistol mini,0s,1,1,1,25,50,0.5,false
+51,15:30:45.454,target,pistol mini,0s,1,1,1,25,50,0.5,false
+52,15:30:45.727,target,pistol mini,0s,1,1,1,25,50,0.5,false
+53,15:30:46.124,target,pistol mini,0s,1,1,1,25,50,0.5,false
+54,15:30:46.367,target,pistol mini,0s,1,1,1,25,50,0.5,false
+55,15:30:46.620,target,pistol mini,0s,1,1,1,25,50,0.5,false
+56,15:30:47.330,target,pistol mini,0.35s,2,1,0.5,25,100,0.25,false
+57,15:30:47.624,target,pistol mini,0s,1,1,1,25,50,0.5,false
+58,15:30:48.001,target,pistol mini,0s,1,1,1,25,50,0.5,false
+59,15:30:48.418,target,pistol mini,0s,1,1,1,25,50,0.5,false
+60,15:30:48.751,target,pistol mini,0s,1,1,1,25,50,0.5,false
+61,15:30:49.055,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+62,15:30:49.334,target,pistol mini,0s,1,1,1,25,50,0.5,false
+63,15:30:49.748,target,pistol mini,0s,1,1,1,25,50,0.5,false
+64,15:30:50.031,target,pistol mini,0s,1,1,1,25,50,0.5,false
+65,15:30:50.384,target,pistol mini,0s,1,1,1,25,50,0.5,false
+66,15:30:50.788,target,pistol mini,0.001s,1,1,1,25,50,0.5,false
+67,15:30:51.111,target,pistol mini,0s,1,1,1,25,50,0.5,false
+68,15:30:51.451,target,pistol mini,0s,1,1,1,25,50,0.5,false
+69,15:30:51.748,target,pistol mini,0s,1,1,1,25,50,0.5,false
+70,15:30:52.121,target,pistol mini,0s,1,1,1,25,50,0.5,false
+71,15:30:52.878,target,pistol mini,0.476s,2,1,0.5,25,100,0.25,false
+72,15:30:53.208,target,pistol mini,0s,1,1,1,25,50,0.5,false
+73,15:30:53.562,target,pistol mini,0s,1,1,1,25,50,0.5,false
+74,15:30:53.855,target,pistol mini,0s,1,1,1,25,50,0.5,false
+75,15:30:54.208,target,pistol mini,0s,1,1,1,25,50,0.5,false
+76,15:30:54.641,target,pistol mini,0s,1,1,1,25,50,0.5,false
+77,15:30:54.931,target,pistol mini,0s,1,1,1,25,50,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol mini,84,77,1925.0,4200.0,
+
+Kills:,77
+Deaths:,0
+Fight Time:,2.685
+Avg TTK:,0.39
+Damage Done:,1925.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,70.583336
+Scenario:,Tile Frenzy Mini
+Hash:,c8ee32750fd457256d3e9f2e7493a410
+Game Version:,2.0.2.0
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,1.2
+Vert Sens:,1.2
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
