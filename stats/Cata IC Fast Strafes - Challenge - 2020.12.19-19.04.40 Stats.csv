@@ -1,0 +1,40 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,19:03:48.733,Quaker Bot Fast Strafes,LG,7.358s,161,50,0.311,300,966,0.311,false
+2,19:04:00.548,Quaker Bot Fast Strafes,LG,11.539s,218,50,0.229,300,1308,0.229,false
+3,19:04:13.303,Quaker Bot Fast Strafes,LG,12.482s,237,50,0.211,300,1422,0.211,false
+4,19:04:26.423,Quaker Bot Fast Strafes,LG,12.844s,245,50,0.204,300,1470,0.204,false
+5,19:04:37.148,Quaker Bot Fast Strafes,LG,10.449s,195,50,0.256,300,1170,0.256,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,1093,256,1536.0,6558.0,
+
+Kills:,5
+Deaths:,0
+Fight Time:,54.672001
+Avg TTK:,0
+Damage Done:,1536.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,1079.275391
+Scenario:,Cata IC Fast Strafes
+Hash:,ae0024fa5045348cf5200beda4716333
+Game Version:,2.0.3.1
+Challenge Start:,19:03:40.424
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.781647
+Resolution Scale,100.0

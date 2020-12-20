@@ -5,8 +5,10 @@ filename = "filenames.txt"
 filenamefile = open(filename, 'w')
 
 onlyfiles = [f for f in listdir('./') if isfile(join('./', f))]
+ignoreList = ["filenames.txt", "filelistscript.py"]
 
 for file in onlyfiles:
-    filenamefile.write(file + "\n")
+    if file not in ignoreList:
+        filenamefile.write(file + "\n")
 
 filenamefile.close()
