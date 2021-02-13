@@ -25,7 +25,28 @@
 1wall 6targets small - Challenge - 2020.12.20-12.52.59 Stats.csv
 1wall 6targets small - Challenge - 2020.12.20-12.54.10 Stats.csv
 1wall 6targets small - Challenge - 2020.12.20-12.55.17 Stats.csv
+1wall 6targets small - Challenge - 2021.01.05-19.17.29 Stats.csv
+1wall 6targets small - Challenge - 2021.01.05-19.27.06 Stats.csv
+1wall 6targets small - Challenge - 2021.01.06-08.44.38 Stats.csv
+1wall 6targets small - Challenge - 2021.01.06-08.46.16 Stats.csv
+1wall 6targets small - Challenge - 2021.01.06-08.47.23 Stats.csv
+1wall 6targets small - Challenge - 2021.01.06-08.48.30 Stats.csv
+1wall 6targets small - Challenge - 2021.01.07-19.25.05 Stats.csv
+1wall 6targets small - Challenge - 2021.01.07-19.26.11 Stats.csv
+1wall 6targets small - Challenge - 2021.01.10-12.59.54 Stats.csv
+1wall 6targets small - Challenge - 2021.01.10-13.01.07 Stats.csv
+1wall 6targets small - Challenge - 2021.01.17-21.32.57 Stats.csv
+1wall 6targets small - Challenge - 2021.01.18-12.43.33 Stats.csv
+1wall 6targets small - Challenge - 2021.01.18-12.44.54 Stats.csv
+1wall 6targets small - Challenge - 2021.01.31-09.56.02 Stats.csv
+1wall 6targets small - Challenge - 2021.01.31-09.58.21 Stats.csv
+1wall 6targets small - Challenge - 2021.01.31-10.12.36 Stats.csv
+1wall 6targets small - Challenge - 2021.01.31-10.13.42 Stats.csv
 1wall2targets_smallflicks 60s - Challenge - 2020.10.26-12.27.53 Stats.csv
+1wall2targets_smallflicks 60s - Challenge - 2020.12.22-08.21.43 Stats.csv
+1wall2targets_smallflicks 60s - Challenge - 2020.12.22-08.22.49 Stats.csv
+1wall2targets_smallflicks 60s - Challenge - 2020.12.22-08.23.54 Stats.csv
+1wall2targets_smallflicks 60s - Challenge - 2021.01.05-19.26.02 Stats.csv
 1wall5targets_pasu - Challenge - 2020.10.25-15.16.53 Stats.csv
 1wall5targets_pasu - Challenge - 2020.10.25-15.18.24 Stats.csv
 1wall5targets_pasu - Challenge - 2020.10.25-15.20.00 Stats.csv
@@ -66,6 +87,25 @@
 1wall5targets_pasu - Challenge - 2020.12.20-12.43.17 Stats.csv
 1wall5targets_pasu - Challenge - 2020.12.20-12.44.50 Stats.csv
 1wall5targets_pasu - Challenge - 2020.12.20-12.46.27 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.06-09.08.32 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.06-09.10.06 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.06-09.13.16 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.07-19.08.25 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.07-19.10.26 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.10-12.45.21 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.10-12.46.52 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.10-13.11.59 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.17-21.26.06 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.17-21.38.58 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.18-12.25.09 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.18-12.26.55 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.18-16.40.54 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.18-16.42.31 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.24-16.57.26 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.31-09.59.58 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.31-10.07.10 Stats.csv
+1wall5targets_pasu - Challenge - 2021.01.31-10.26.41 Stats.csv
+1wall5targets_pasu - Challenge - 2021.02.06-19.16.41 Stats.csv
 1wall6targets TE - Challenge - 2020.10.25-12.47.09 Stats.csv
 1wall6targets TE - Challenge - 2020.10.25-12.48.50 Stats.csv
 1wall6targets TE - Challenge - 2020.10.25-12.50.12 Stats.csv
@@ -99,6 +139,26 @@
 1wall6targets TE - Challenge - 2020.12.19-19.07.02 Stats.csv
 1wall6targets TE - Challenge - 2020.12.20-12.30.11 Stats.csv
 1wall6targets TE - Challenge - 2020.12.20-12.31.17 Stats.csv
+1wall6targets TE - Challenge - 2020.12.22-07.43.13 Stats.csv
+1wall6targets TE - Challenge - 2021.01.05-19.15.13 Stats.csv
+1wall6targets TE - Challenge - 2021.01.06-08.33.07 Stats.csv
+1wall6targets TE - Challenge - 2021.01.06-08.34.51 Stats.csv
+1wall6targets TE - Challenge - 2021.01.06-08.35.59 Stats.csv
+1wall6targets TE - Challenge - 2021.01.06-08.37.05 Stats.csv
+1wall6targets TE - Challenge - 2021.01.07-19.20.23 Stats.csv
+1wall6targets TE - Challenge - 2021.01.07-19.21.29 Stats.csv
+1wall6targets TE - Challenge - 2021.01.10-12.55.15 Stats.csv
+1wall6targets TE - Challenge - 2021.01.10-12.56.23 Stats.csv
+1wall6targets TE - Challenge - 2021.01.17-21.30.41 Stats.csv
+1wall6targets TE - Challenge - 2021.01.18-12.38.42 Stats.csv
+1wall6targets TE - Challenge - 2021.01.18-12.40.02 Stats.csv
+1wall6targets TE - Challenge - 2021.01.31-10.01.07 Stats.csv
+1wall6targets TE - Challenge - 2021.01.31-10.04.21 Stats.csv
+1wall6targets TE - Challenge - 2021.01.31-10.10.49 Stats.csv
+1wall6targets TE - Challenge - 2021.01.31-10.22.19 Stats.csv
+air far long strafes - Challenge - 2020.12.22-08.40.34 Stats.csv
+Ascended Tracking 90 - Challenge - 2020.12.22-08.30.35 Stats.csv
+Ascended Tracking 90 Small - Challenge - 2020.12.22-08.42.10 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.10.25-14.54.22 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.10.25-14.56.28 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.10.25-14.58.13 Stats.csv
@@ -137,9 +197,31 @@ Ascended Tracking v3 - Challenge - 2020.12.19-19.01.04 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.12.20-12.48.07 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.12.20-12.49.46 Stats.csv
 Ascended Tracking v3 - Challenge - 2020.12.20-12.51.45 Stats.csv
+Ascended Tracking v3 - Challenge - 2020.12.22-07.40.04 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.05-19.10.09 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.06-08.11.07 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.06-08.12.50 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.06-08.14.34 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.07-19.04.03 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.07-19.05.37 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.10-12.39.55 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.10-12.41.32 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.17-21.23.19 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.18-12.20.45 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.18-12.22.21 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.24-13.17.04 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.24-13.18.48 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.24-13.47.15 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.31-09.53.12 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.31-10.17.39 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.01.31-10.19.18 Stats.csv
+Ascended Tracking v3 - Challenge - 2021.02.06-19.13.11 Stats.csv
 Bounce 180 - Challenge - 2020.11.15-17.13.14 Stats.csv
 Bounce 180 - Challenge - 2020.11.15-17.14.30 Stats.csv
+Bounce 180 Tracking - Challenge - 2020.12.22-08.09.38 Stats.csv
+Bounce 180 Tracking - Challenge - 2020.12.22-08.10.54 Stats.csv
 Bounce 180 Tracking Invincible Always Bounce - Challenge - 2020.11.07-17.25.32 Stats.csv
+Bounce 180 Tracking Large - Challenge - 2020.12.22-08.35.58 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.10.25-15.24.46 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.10.25-15.25.54 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.10.25-15.27.02 Stats.csv
@@ -166,6 +248,23 @@ Cata IC Fast Strafes - Challenge - 2020.12.13-19.57.13 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.12.19-19.04.40 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.12.20-12.27.45 Stats.csv
 Cata IC Fast Strafes - Challenge - 2020.12.20-12.28.55 Stats.csv
+Cata IC Fast Strafes - Challenge - 2020.12.27-17.43.57 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.05-19.13.01 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.06-08.25.39 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.06-08.26.45 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.06-08.28.24 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.06-08.29.42 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.07-19.16.00 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.07-19.17.03 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.10-12.50.04 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.10-12.51.07 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.17-21.28.29 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.17-21.37.29 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.18-12.30.29 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.18-12.33.25 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.31-10.29.50 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.01.31-10.35.38 Stats.csv
+Cata IC Fast Strafes - Challenge - 2021.02.06-19.10.35 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.10.25-12.29.41 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.10.25-12.30.55 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.10.25-12.32.08 Stats.csv
@@ -196,7 +295,29 @@ Cata IC Long Strafes - Challenge - 2020.12.20-12.37.52 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.12.20-12.38.58 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.12.20-12.40.29 Stats.csv
 Cata IC Long Strafes - Challenge - 2020.12.20-12.41.33 Stats.csv
+Cata IC Long Strafes - Challenge - 2020.12.22-07.41.25 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.05-19.11.21 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.06-08.15.55 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.06-08.17.14 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.06-08.19.21 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.06-08.21.02 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.07-19.11.54 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.07-19.12.58 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.10-12.42.43 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.10-12.43.48 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.17-21.24.30 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.18-12.23.36 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.18-12.28.01 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.24-13.44.34 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.31-09.54.30 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.31-10.05.38 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.31-10.16.02 Stats.csv
+Cata IC Long Strafes - Challenge - 2021.01.31-10.21.13 Stats.csv
+Cata Orb Fast Strafes - Challenge - 2020.12.22-08.03.23 Stats.csv
+Cata Orb Fast Strafes - Challenge - 2021.01.18-17.01.15 Stats.csv
 Cata Orb Long Strafes - Challenge - 2020.11.07-17.40.38 Stats.csv
+Cata Plasma Long Strafes - Challenge - 2021.01.18-17.02.26 Stats.csv
+Close Fast Strafes Easy Invincible - Challenge - 2020.12.22-08.39.23 Stats.csv
 Close FSEI Thin - Challenge - 2020.11.15-17.15.45 Stats.csv
 Close Long Strafes - Challenge - 2020.10.25-12.35.30 Stats.csv
 Close Long Strafes - Challenge - 2020.10.25-12.37.26 Stats.csv
@@ -265,17 +386,55 @@ fuglaaXYLongstrafes - Challenge - 2020.12.14-08.44.01 Stats.csv
 fuglaaXYLongstrafes - Challenge - 2020.12.20-12.32.27 Stats.csv
 fuglaaXYLongstrafes - Challenge - 2020.12.20-12.33.32 Stats.csv
 fuglaaXYLongstrafes - Challenge - 2020.12.20-12.34.38 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2020.12.22-07.44.26 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.05-19.16.22 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.06-08.38.25 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.06-08.40.51 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.06-08.42.10 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.06-08.43.22 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.07-19.22.35 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.07-19.23.40 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.10-12.57.33 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.10-12.58.41 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.17-21.31.50 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.18-12.41.13 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.18-12.42.26 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.18-16.38.18 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.18-16.39.24 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.24-13.45.38 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.31-10.08.22 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.31-10.24.33 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.31-10.28.44 Stats.csv
+fuglaaXYLongstrafes - Challenge - 2021.01.31-10.36.50 Stats.csv
+gp 1 invincible - Challenge - 2020.12.22-08.38.12 Stats.csv
+gp far long strafes - Challenge - 2020.12.22-08.28.55 Stats.csv
 LG Pin Practice 360 - Challenge - 2020.11.07-17.46.04 Stats.csv
 mccoyfrozentrack - Challenge - 2020.10.25-15.23.34 Stats.csv
 mccoyfrozentrack - Challenge - 2020.11.07-17.33.23 Stats.csv
 mccoyfrozentrack - Challenge - 2020.11.07-17.34.03 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.45.20 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.45.54 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.46.32 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.47.12 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.47.56 Stats.csv
+mccoyfrozentrack - Challenge - 2020.12.22-07.48.32 Stats.csv
+mccoyfrozentrack - Challenge - 2021.01.18-17.03.23 Stats.csv
 Midair Mix - Challenge - 2020.10.25-15.30.15 Stats.csv
 Midair Mix - Challenge - 2020.10.28-20.04.45 Stats.csv
+Midair Mix - Challenge - 2020.12.22-07.52.23 Stats.csv
+Multi-FOV Warmup - Challenge - 2020.12.22-08.02.07 Stats.csv
 Pasu Dodge Easy - Challenge - 2020.11.15-17.09.37 Stats.csv
+Pasu Dodge ES 180 - Challenge - 2020.12.22-08.16.50 Stats.csv
+pasu small reload - Challenge - 2020.12.22-08.15.17 Stats.csv
 Pasu Track Dodge - Challenge - 2020.11.07-17.26.43 Stats.csv
 patTargetSwitch - Challenge - 2020.11.07-17.42.26 Stats.csv
 patTargetSwitch - Challenge - 2020.11.07-17.43.31 Stats.csv
+patTargetSwitch - Challenge - 2020.12.22-08.04.40 Stats.csv
+patTargetSwitch - Challenge - 2020.12.22-08.05.45 Stats.csv
 patTargetSwitch easy - Challenge - 2020.12.14-08.39.12 Stats.csv
+patTargetSwitch easy - Challenge - 2020.12.22-08.34.43 Stats.csv
+patTargetSwitch easy - Challenge - 2021.01.05-19.24.33 Stats.csv
+patTargetSwitch Small - Challenge - 2020.12.22-08.25.03 Stats.csv
 POPCORN - Challenge - 2020.10.25-15.34.29 Stats.csv
 POPCORN - Challenge - 2020.10.26-08.47.14 Stats.csv
 POPCORN - Challenge - 2020.10.26-08.48.18 Stats.csv
@@ -296,11 +455,28 @@ POPCORN - Challenge - 2020.11.24-18.39.36 Stats.csv
 POPCORN - Challenge - 2020.12.13-19.58.23 Stats.csv
 POPCORN - Challenge - 2020.12.13-19.59.27 Stats.csv
 POPCORN - Challenge - 2020.12.19-19.08.20 Stats.csv
+POPCORN - Challenge - 2021.01.05-19.14.06 Stats.csv
+POPCORN - Challenge - 2021.01.06-08.30.55 Stats.csv
+POPCORN - Challenge - 2021.01.06-08.31.59 Stats.csv
+POPCORN - Challenge - 2021.01.07-19.18.12 Stats.csv
+POPCORN - Challenge - 2021.01.07-19.19.17 Stats.csv
+POPCORN - Challenge - 2021.01.10-12.52.22 Stats.csv
+POPCORN - Challenge - 2021.01.10-12.53.32 Stats.csv
+POPCORN - Challenge - 2021.01.10-13.10.25 Stats.csv
+POPCORN - Challenge - 2021.01.17-21.29.36 Stats.csv
+POPCORN - Challenge - 2021.01.18-12.34.37 Stats.csv
+POPCORN - Challenge - 2021.01.18-12.37.33 Stats.csv
+POPCORN - Challenge - 2021.02.06-19.15.02 Stats.csv
 Popcorn Goated Tracking Easy Invincible - Challenge - 2020.12.14-08.41.00 Stats.csv
+Popcorn Goated Tracking Easy Invincible - Challenge - 2020.12.22-08.37.03 Stats.csv
 Pressure Aiming - 10 Targets - Challenge - 2020.10.28-20.06.55 Stats.csv
+Pressure Aiming - 10 Targets - Challenge - 2020.12.22-07.55.13 Stats.csv
+Pressure Aiming - 10 Targets - Challenge - 2020.12.22-07.57.29 Stats.csv
+Pressure Aiming - 10 Targets - Challenge - 2021.01.18-16.56.31 Stats.csv
 Pressure Aiming - 7 Targets - Challenge - 2020.10.25-15.13.04 Stats.csv
 Pressure Aiming - 7 Targets - Challenge - 2020.10.25-15.15.12 Stats.csv
 Pressure Aiming - 7 Targets - Challenge - 2020.11.04-21.29.11 Stats.csv
+Pressure Aiming - 7 Targets - Challenge - 2021.01.18-16.46.27 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.25-14.47.00 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.25-14.48.08 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.25-14.49.12 Stats.csv
@@ -312,8 +488,27 @@ Reflex Flick - Fair - Challenge - 2020.10.26-19.59.51 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.26-20.00.55 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.28-20.02.20 Stats.csv
 Reflex Flick - Fair - Challenge - 2020.10.28-20.03.26 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.05-19.19.46 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.06-09.05.44 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.06-09.06.50 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.07-19.29.33 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.07-19.30.39 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.10-13.04.29 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.10-13.05.43 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.10-13.06.58 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.10-13.08.04 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.17-21.35.16 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.17-21.36.20 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.18-12.48.21 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.18-12.49.27 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.31-10.09.38 Stats.csv
+Reflex Flick - Fair - Challenge - 2021.01.31-10.23.23 Stats.csv
 Reflex Flick - Hard - Challenge - 2020.10.25-15.33.21 Stats.csv
+Reflex Flick - Hard - Challenge - 2021.01.18-16.58.23 Stats.csv
 Target Acquisition Flick - Challenge - 2020.10.25-19.20.36 Stats.csv
+Target Acquisition Flick - Challenge - 2020.12.22-07.59.50 Stats.csv
+Target Acquisition Flick - Challenge - 2020.12.22-08.00.55 Stats.csv
+Target Acquisition Flick - Challenge - 2021.01.18-16.59.43 Stats.csv
 Thin Aiming Long - Challenge - 2020.10.25-15.22.55 Stats.csv
 Thin Aiming Long - Challenge - 2020.10.28-20.08.17 Stats.csv
 Thin Aiming Long - Challenge - 2020.11.04-21.24.30 Stats.csv
@@ -333,6 +528,12 @@ Thin Aiming Long - Challenge - 2020.12.06-20.55.55 Stats.csv
 Thin Aiming Long - Challenge - 2020.12.06-20.57.03 Stats.csv
 Thin Aiming Long - Challenge - 2020.12.06-20.58.07 Stats.csv
 Thin Aiming Long - Challenge - 2020.12.14-08.45.10 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.05-19.21.34 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.06-09.14.26 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.06-09.16.18 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.06-09.17.50 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.07-19.31.50 Stats.csv
+Thin Aiming Long - Challenge - 2021.01.18-16.43.51 Stats.csv
 Tile Frenzy - Challenge - 2020.10.25-15.27.42 Stats.csv
 Tile Frenzy - Challenge - 2020.10.25-15.28.19 Stats.csv
 Tile Frenzy - Challenge - 2020.10.26-12.09.26 Stats.csv
@@ -403,6 +604,45 @@ Tile Frenzy - Challenge - 2020.12.20-12.26.06 Stats.csv
 Tile Frenzy - Challenge - 2020.12.20-12.26.39 Stats.csv
 Tile Frenzy - Challenge - 2020.12.20-12.35.33 Stats.csv
 Tile Frenzy - Challenge - 2020.12.20-12.36.09 Stats.csv
+Tile Frenzy - Challenge - 2020.12.22-07.42.05 Stats.csv
+Tile Frenzy - Challenge - 2020.12.22-08.42.54 Stats.csv
+Tile Frenzy - Challenge - 2020.12.27-17.42.46 Stats.csv
+Tile Frenzy - Challenge - 2021.01.05-19.11.56 Stats.csv
+Tile Frenzy - Challenge - 2021.01.05-19.20.30 Stats.csv
+Tile Frenzy - Challenge - 2021.01.05-19.22.11 Stats.csv
+Tile Frenzy - Challenge - 2021.01.05-19.22.45 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-08.22.05 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-08.22.47 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-08.23.21 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-08.24.33 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-09.18.33 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-09.19.13 Stats.csv
+Tile Frenzy - Challenge - 2021.01.06-09.19.46 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.06.22 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.06.54 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.13.33 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.14.19 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.14.55 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.32.26 Stats.csv
+Tile Frenzy - Challenge - 2021.01.07-19.33.00 Stats.csv
+Tile Frenzy - Challenge - 2021.01.10-12.47.33 Stats.csv
+Tile Frenzy - Challenge - 2021.01.10-12.48.06 Stats.csv
+Tile Frenzy - Challenge - 2021.01.10-12.48.39 Stats.csv
+Tile Frenzy - Challenge - 2021.01.10-13.08.42 Stats.csv
+Tile Frenzy - Challenge - 2021.01.10-13.09.16 Stats.csv
+Tile Frenzy - Challenge - 2021.01.17-21.26.41 Stats.csv
+Tile Frenzy - Challenge - 2021.01.17-21.27.17 Stats.csv
+Tile Frenzy - Challenge - 2021.01.18-12.28.41 Stats.csv
+Tile Frenzy - Challenge - 2021.01.18-12.29.24 Stats.csv
+Tile Frenzy - Challenge - 2021.01.18-16.35.40 Stats.csv
+Tile Frenzy - Challenge - 2021.01.18-16.36.14 Stats.csv
+Tile Frenzy - Challenge - 2021.01.18-16.37.07 Stats.csv
+Tile Frenzy - Challenge - 2021.01.24-16.58.06 Stats.csv
+Tile Frenzy - Challenge - 2021.01.24-16.58.39 Stats.csv
+Tile Frenzy - Challenge - 2021.01.31-10.11.29 Stats.csv
+Tile Frenzy - Challenge - 2021.01.31-10.27.39 Stats.csv
+Tile Frenzy - Challenge - 2021.02.06-19.07.18 Stats.csv
+Tile Frenzy - Challenge - 2021.02.06-19.13.54 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.09.19 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.10.14 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.10.51 Stats.csv
@@ -410,6 +650,8 @@ Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.11.24 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.11.57 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.12.30 Stats.csv
 Tile Frenzy - Strafing - 01 - Challenge - 2020.10.25-14.13.03 Stats.csv
+Tile Frenzy - Strafing - 01 - Challenge - 2020.12.22-08.26.50 Stats.csv
+Tile Frenzy - Strafing - 01 - Challenge - 2020.12.22-08.27.29 Stats.csv
 Tile Frenzy - Strafing - 03 - Challenge - 2020.12.14-08.33.21 Stats.csv
 Tile Frenzy - Strafing - 03 - Challenge - 2020.12.14-08.33.59 Stats.csv
 Tile Frenzy - Strafing - 03 - Challenge - 2020.12.14-08.34.31 Stats.csv
@@ -418,16 +660,29 @@ Tile Frenzy 180 - Challenge - 2020.12.14-08.31.34 Stats.csv
 Tile Frenzy 180 - Challenge - 2020.12.14-08.32.42 Stats.csv
 Tile Frenzy Flick - Challenge - 2020.12.14-08.37.32 Stats.csv
 Tile Frenzy Flick - Challenge - 2020.12.14-08.38.07 Stats.csv
+Tile Frenzy Flick - Challenge - 2020.12.22-08.32.56 Stats.csv
+Tile Frenzy Flick - Challenge - 2020.12.22-08.33.32 Stats.csv
+Tile Frenzy Flick - Challenge - 2021.01.05-19.23.28 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.10.25-15.30.55 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.10.25-15.31.29 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.10.25-15.32.05 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.11.07-17.37.16 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.11.07-17.37.51 Stats.csv
 Tile Frenzy Mini - Challenge - 2020.11.07-17.38.27 Stats.csv
+Tile Frenzy Mini - Challenge - 2020.12.22-07.49.47 Stats.csv
+Tile Frenzy Mini - Challenge - 2020.12.22-07.50.24 Stats.csv
+Tile Frenzy Mini - Challenge - 2020.12.22-07.51.09 Stats.csv
+Tile Frenzy Mini - Challenge - 2020.12.22-08.26.11 Stats.csv
+Tile Frenzy Mini - Challenge - 2021.01.18-16.48.01 Stats.csv
+Tile Frenzy Mini - Challenge - 2021.01.18-16.48.37 Stats.csv
+Tile Frenzy Mini - Challenge - 2021.01.18-16.49.16 Stats.csv
+Tile Frenzy Mini - Challenge - 2021.01.18-16.50.35 Stats.csv
 Valorant Small Flicks - Challenge - 2020.11.07-17.47.17 Stats.csv
 Valorant Small Flicks - Challenge - 2020.11.07-17.48.25 Stats.csv
 Valorant Small Flicks - Challenge - 2020.11.15-16.46.32 Stats.csv
 Valorant Small Flicks - Challenge - 2020.11.15-16.47.49 Stats.csv
+Valorant Small Flicks - Challenge - 2020.12.22-08.07.10 Stats.csv
+Valorant Small Flicks - Challenge - 2020.12.22-08.08.15 Stats.csv
 Vertical Fast Strafes - Challenge - 2020.11.07-17.23.59 Stats.csv
 Vertical Fast Strafes - Challenge - 2020.11.15-17.16.57 Stats.csv
 Vertical Fast Strafes - Challenge - 2020.11.15-17.18.03 Stats.csv
@@ -447,3 +702,21 @@ Vertical Long Strafes - Challenge - 2020.10.28-20.00.09 Stats.csv
 Vertical Long Strafes - Challenge - 2020.10.28-20.01.14 Stats.csv
 Vertical Long Strafes - Challenge - 2020.12.20-12.23.37 Stats.csv
 Vertical Long Strafes - Challenge - 2020.12.20-12.24.55 Stats.csv
+Vertical Long Strafes - Challenge - 2020.12.22-08.31.44 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.05-19.18.40 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.06-09.00.21 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.06-09.01.47 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.06-09.03.07 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.06-09.04.36 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.07-19.27.16 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.07-19.28.23 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.10-13.02.19 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.10-13.03.23 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.17-21.34.08 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.18-12.46.01 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.18-12.47.05 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.31-09.57.12 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.31-10.02.58 Stats.csv
+Vertical Long Strafes - Challenge - 2021.01.31-10.14.49 Stats.csv
+voxTargetSwitch - Challenge - 2020.12.22-08.12.08 Stats.csv
+voxTargetSwitch - Challenge - 2020.12.22-08.13.12 Stats.csv
