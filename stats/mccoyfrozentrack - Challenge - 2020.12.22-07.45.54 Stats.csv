@@ -1,0 +1,47 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,07:45:28.352,MovingTarget,Six Shooter,3.41s,5,3,0.6,210,700,0.3,false
+2,07:45:29.121,MovingTarget,Six Shooter,0s,1,1,1,70,140,0.5,false
+3,07:45:34.271,MovingTarget,Six Shooter,4.583s,6,3,0.5,210,840,0.25,false
+4,07:45:35.205,MovingTarget,Six Shooter,0s,1,1,1,70,140,0.5,false
+5,07:45:40.506,MovingTarget,Six Shooter,4.338s,5,3,0.6,210,700,0.3,false
+6,07:45:41.372,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+7,07:45:42.362,MovingTarget,Six Shooter,0s,1,1,1,70,140,0.5,false
+8,07:45:46.107,MovingTarget,Six Shooter,2.95s,3,2,0.667,140,420,0.333,false
+9,07:45:47.968,MovingTarget,Six Shooter,0.497s,2,2,1,210,280,0.75,false
+10,07:45:48.936,MovingTarget,Six Shooter,0.5s,2,2,1,140,280,0.5,false
+11,07:45:50.396,MovingTarget,Six Shooter,0.537s,2,2,1,140,280,0.5,false
+12,07:45:51.800,MovingTarget,Six Shooter,0.524s,2,2,1,140,280,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Six Shooter,33,25,1890.0,4620.0,
+
+Kills:,13
+Deaths:,0
+Fight Time:,17.892
+Avg TTK:,0
+Damage Done:,1890.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,585.743774
+Scenario:,mccoyfrozentrack
+Hash:,bdeef293820a694ba85cadbd4e8c0caf
+Game Version:,2.0.3.1
+Challenge Start:,07:45:24.045
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.760468
+Resolution Scale,100.0

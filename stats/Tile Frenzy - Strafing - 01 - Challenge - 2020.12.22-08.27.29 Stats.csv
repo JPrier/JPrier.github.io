@@ -1,0 +1,103 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,08:27:00.341,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+2,08:27:00.884,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+3,08:27:01.115,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+4,08:27:01.471,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+5,08:27:02.091,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+6,08:27:02.420,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+7,08:27:02.899,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+8,08:27:03.183,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+9,08:27:03.843,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.316s,2,1,0.5,100,400,0.25,false
+10,08:27:04.100,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+11,08:27:04.560,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+12,08:27:04.763,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+13,08:27:05.466,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.296s,2,1,0.5,100,400,0.25,false
+14,08:27:05.823,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+15,08:27:06.130,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+16,08:27:06.993,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.553s,3,1,0.333,100,600,0.167,false
+17,08:27:07.286,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+18,08:27:07.554,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+19,08:27:08.124,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+20,08:27:08.730,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.263s,2,1,0.5,100,400,0.25,false
+21,08:27:09.097,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+22,08:27:09.497,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+23,08:27:09.814,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+24,08:27:10.284,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+25,08:27:10.460,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+26,08:27:10.770,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+27,08:27:11.020,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+28,08:27:11.277,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+29,08:27:11.527,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+30,08:27:11.803,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+31,08:27:12.147,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+32,08:27:12.591,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+33,08:27:12.921,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+34,08:27:13.161,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+35,08:27:13.725,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+36,08:27:14.058,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+37,08:27:14.947,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.362s,2,1,0.5,100,400,0.25,false
+38,08:27:15.307,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+39,08:27:15.844,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+40,08:27:16.175,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+41,08:27:16.585,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+42,08:27:16.949,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+43,08:27:17.459,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+44,08:27:17.759,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+45,08:27:18.145,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+46,08:27:18.509,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+47,08:27:19.237,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.258s,2,1,0.5,100,400,0.25,false
+48,08:27:19.503,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+49,08:27:20.491,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.588s,2,1,0.5,100,400,0.25,false
+50,08:27:21.282,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.584s,2,1,0.5,100,400,0.25,false
+51,08:27:21.853,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.297s,2,1,0.5,100,400,0.25,false
+52,08:27:22.266,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+53,08:27:22.556,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+54,08:27:23.175,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.313s,2,1,0.5,100,400,0.25,false
+55,08:27:23.618,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+56,08:27:24.122,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.001s,1,1,1,100,200,0.5,false
+57,08:27:24.511,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+58,08:27:24.888,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+59,08:27:25.339,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+60,08:27:25.999,TileFrenzyStrafing Cube,TileFrenzy Challenge,0.29s,2,1,0.5,100,400,0.25,false
+61,08:27:27.315,TileFrenzyStrafing Cube,TileFrenzy Challenge,1.056s,3,1,0.333,100,600,0.167,false
+62,08:27:27.552,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+63,08:27:27.942,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+64,08:27:28.215,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+65,08:27:28.492,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+66,08:27:28.892,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+67,08:27:29.145,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+68,08:27:29.415,TileFrenzyStrafing Cube,TileFrenzy Challenge,0s,1,1,1,100,200,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+TileFrenzy Challenge,82,68,6800.0,16400.0,
+
+Kills:,68
+Deaths:,0
+Fight Time:,5.179
+Avg TTK:,0
+Damage Done:,6800.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,56.390244
+Scenario:,Tile Frenzy - Strafing - 01
+Hash:,de995d9d66c7950c6dcb779ce6bc50a0
+Game Version:,2.0.3.1
+Challenge Start:,08:26:59.724
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.500793
+Resolution Scale,100.0

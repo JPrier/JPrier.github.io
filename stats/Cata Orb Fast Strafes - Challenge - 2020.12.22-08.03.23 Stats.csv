@@ -1,0 +1,39 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,08:02:27.484,Watcher Bot Fast Strafes,Monk Orb,2.915s,7,4,0.571,230,644,0.357,false
+2,08:02:41.650,Watcher Bot Fast Strafes,Monk Orb,12.179s,24,4,0.167,230,2208,0.104,false
+3,08:03:00.603,Watcher Bot Fast Strafes,Monk Orb,16.947s,34,4,0.118,230,3128,0.074,false
+4,08:03:10.947,Watcher Bot Fast Strafes,Monk Orb,8.405s,15,4,0.267,230,1380,0.167,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Monk Orb,97,20,1104.0,8924.0,
+
+Kills:,4
+Deaths:,0
+Fight Time:,40.445999
+Avg TTK:,0
+Damage Done:,1104.0
+Damage Taken:,0.0
+Midairs:,5
+Midaired:,0
+Directs:,20
+Directed:,0
+Distance Traveled:,0.0
+Score:,3312.0
+Scenario:,Cata Orb Fast Strafes
+Hash:,3b25513bc05ba8e06d64c18985ed94b3
+Game Version:,2.0.3.1
+Challenge Start:,08:02:23.905
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.771149
+Resolution Scale,100.0

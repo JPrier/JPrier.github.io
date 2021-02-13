@@ -1,0 +1,49 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,08:15:32.230,test360,pistol,3.103s,4,1,0.25,1000,10000,0.1,false
+2,08:15:36.324,test360,pistol,1.915s,3,1,0.333,1000,7500,0.133,false
+3,08:15:37.208,test360,pistol,0.001s,1,1,1,1000,2500,0.4,false
+4,08:15:40.030,test360,pistol,1.648s,2,1,0.5,1000,5000,0.2,false
+5,08:15:40.803,test360,pistol,0s,1,1,1,1000,2500,0.4,false
+6,08:15:46.601,test360,pistol,2.788s,3,1,0.333,1000,7500,0.133,false
+7,08:16:02.029,test360,pistol,13.483s,9,1,0.111,1000,22500,0.044,false
+8,08:16:06.401,test360,pistol,2.701s,3,1,0.333,1000,7500,0.133,false
+9,08:16:07.393,test360,pistol,0s,1,1,1,1000,2500,0.4,false
+10,08:16:10.601,test360,pistol,2.39s,4,1,0.25,1000,10000,0.1,false
+11,08:16:26.346,test360,pistol,14.641s,10,1,0.1,1000,25000,0.04,false
+12,08:16:36.802,test360,pistol,9.215s,7,1,0.143,1000,17500,0.057,false
+13,08:16:39.351,test360,pistol,1.555s,3,1,0.333,1000,7500,0.133,false
+14,08:16:49.267,test360,pistol,9.138s,6,1,0.167,1000,15000,0.067,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,58,14,14000.0,145000.0,
+
+Kills:,14
+Deaths:,0
+Fight Time:,62.577999
+Avg TTK:,0
+Damage Done:,14000.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,10137.930664
+Scenario:,Pasu Dodge ES 180
+Hash:,426c9f16d03744c8e7fee095b241a37c
+Game Version:,2.0.3.1
+Challenge Start:,08:15:25.090
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,346.966064
+Resolution Scale,100.0

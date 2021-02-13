@@ -1,0 +1,57 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,13:05:59.922,target_decay,pistol,0.841s,2,1,0.5,25,100,0.25,false
+2,13:06:03.323,target_decay,pistol,2.619s,4,1,0.25,25,200,0.125,false
+3,13:06:05.004,target_decay,pistol,0.918s,2,1,0.5,25,100,0.25,false
+4,13:06:10.302,target_decay,pistol,4.516s,6,1,0.167,25,300,0.083,false
+5,13:06:11.062,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+6,13:06:11.851,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+7,13:06:13.462,target_decay,pistol,0.791s,2,1,0.5,25,100,0.25,false
+8,13:06:21.416,target_decay,pistol,7.118s,9,1,0.111,25,450,0.056,false
+9,13:06:24.937,target_decay,pistol,2.727s,4,1,0.25,25,200,0.125,false
+10,13:06:25.788,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+11,13:06:27.382,target_decay,pistol,0.804s,2,1,0.5,25,100,0.25,false
+12,13:06:29.026,target_decay,pistol,0.867s,2,1,0.5,25,100,0.25,false
+13,13:06:33.352,target_decay,pistol,3.472s,5,1,0.2,25,250,0.1,false
+14,13:06:36.860,target_decay,pistol,2.701s,4,1,0.25,25,200,0.125,false
+15,13:06:43.038,target_decay,pistol,5.313s,7,1,0.143,25,350,0.071,false
+16,13:06:47.356,target_decay,pistol,3.517s,5,1,0.2,25,250,0.1,false
+17,13:06:48.073,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+18,13:06:49.747,target_decay,pistol,0.896s,2,1,0.5,25,100,0.25,false
+19,13:06:51.549,target_decay,pistol,1.071s,2,1,0.5,25,100,0.25,false
+20,13:06:52.378,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+21,13:06:54.943,target_decay,pistol,1.671s,3,1,0.333,25,150,0.167,false
+22,13:06:58.479,target_decay,pistol,2.676s,4,1,0.25,25,200,0.125,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,70,22,550.0,3500.0,
+
+Kills:,22
+Deaths:,0
+Fight Time:,42.518002
+Avg TTK:,0
+Damage Done:,550.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,691.428589
+Scenario:,Reflex Flick - Fair
+Hash:,a51ec6c2d75ccb78bdb0d20bf4ce9cb7
+Game Version:,2.0.3.1
+Challenge Start:,13:05:58.514
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.082214
+Resolution Scale,100.0

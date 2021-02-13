@@ -1,0 +1,65 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,08:35:24.689,Pigeon,LG,0.469s,5,5,1,30,30,1,false
+2,08:35:25.856,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+3,08:35:27.385,Pigeon,LG,0.7s,14,5,0.357,30,84,0.357,false
+4,08:35:29.080,Pigeon,LG,1.134s,22,5,0.227,30,132,0.227,false
+5,08:35:30.393,Pigeon,LG,0.539s,11,5,0.455,30,66,0.455,false
+6,08:35:31.571,Pigeon,LG,0.323s,7,5,0.714,30,42,0.714,false
+7,08:35:32.514,Pigeon,LG,0.323s,7,5,0.714,30,42,0.714,false
+8,08:35:33.424,Pigeon,LG,0.43s,9,5,0.556,30,54,0.556,false
+9,08:35:34.614,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+10,08:35:35.287,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+11,08:35:36.182,Pigeon,LG,0.271s,6,5,0.833,30,36,0.833,false
+12,08:35:37.181,Pigeon,LG,0.27s,6,5,0.833,30,36,0.833,false
+13,08:35:38.034,Pigeon,LG,0.377s,8,5,0.625,30,48,0.625,false
+14,08:35:39.111,Pigeon,LG,0.27s,6,5,0.833,30,36,0.833,false
+15,08:35:40.451,Pigeon,LG,0.646s,13,5,0.385,30,78,0.385,false
+16,08:35:41.681,Pigeon,LG,0.424s,9,5,0.556,30,54,0.556,false
+17,08:35:42.987,Pigeon,LG,0.809s,16,5,0.312,30,96,0.312,false
+18,08:35:44.734,Pigeon,LG,1.133s,22,5,0.227,30,132,0.227,false
+19,08:35:45.631,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+20,08:35:46.998,Pigeon,LG,0.973s,19,5,0.263,30,114,0.263,false
+21,08:35:48.228,Pigeon,LG,0.74s,12,6,0.5,36,72,0.5,false
+22,08:35:48.755,Pigeon,LG,0.16s,4,4,1,24,24,1,false
+23,08:35:50.233,Pigeon,LG,0.703s,14,5,0.357,30,84,0.357,false
+24,08:35:50.979,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+25,08:35:51.949,Pigeon,LG,0.323s,7,5,0.714,30,42,0.714,false
+26,08:35:52.819,Pigeon,LG,0.353s,7,5,0.714,30,42,0.714,false
+27,08:35:54.154,Pigeon,LG,1.082s,16,5,0.312,30,96,0.312,false
+28,08:35:55.010,Pigeon,LG,0.214s,5,5,1,30,30,1,false
+29,08:35:55.727,Pigeon,LG,0.213s,5,5,1,30,30,1,false
+30,08:35:56.761,Pigeon,LG,0.487s,10,5,0.5,30,60,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,299,155,930.0,1794.0,
+
+Kills:,31
+Deaths:,0
+Fight Time:,15.135
+Avg TTK:,0
+Damage Done:,930.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,31.0
+Scenario:,Bounce 180 Tracking Large
+Hash:,9a3dc96b191737c2e711c5886f284dd1
+Game Version:,2.0.3.1
+Challenge Start:,08:35:22.946
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,349.453918
+Resolution Scale,100.0

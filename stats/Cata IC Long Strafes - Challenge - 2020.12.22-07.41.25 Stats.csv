@@ -1,0 +1,42 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,07:40:31.350,Quaker Bot Long Strafes,LG,4.966s,109,50,0.459,300,654,0.459,false
+2,07:40:38.754,Quaker Bot Long Strafes,LG,5.427s,119,50,0.42,300,714,0.42,false
+3,07:40:47.938,Quaker Bot Long Strafes,LG,7.221s,158,50,0.316,300,948,0.316,false
+4,07:40:55.559,Quaker Bot Long Strafes,LG,5.471s,120,50,0.417,300,720,0.417,false
+5,07:41:03.044,Quaker Bot Long Strafes,LG,5.565s,122,50,0.41,300,732,0.41,false
+6,07:41:11.272,Quaker Bot Long Strafes,LG,7.955s,137,50,0.365,300,822,0.365,false
+7,07:41:19.708,Quaker Bot Long Strafes,LG,8.16s,141,50,0.355,300,846,0.355,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+LG,996,398,2388.0,5976.0,
+
+Kills:,7
+Deaths:,0
+Fight Time:,44.764999
+Avg TTK:,0
+Damage Done:,2388.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,2862.7229
+Scenario:,Cata IC Long Strafes
+Hash:,9bcb93b2f0c30298e66553395dca1bca
+Game Version:,2.0.3.1
+Challenge Start:,07:40:25.468
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,294.745209
+Resolution Scale,100.0

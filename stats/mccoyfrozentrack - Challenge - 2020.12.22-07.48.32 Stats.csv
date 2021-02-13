@@ -1,0 +1,52 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,07:48:03.950,MovingTarget,Six Shooter,0.661s,2,2,1,210,280,0.75,false
+2,07:48:05.240,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+3,07:48:07.623,MovingTarget,Six Shooter,0.874s,2,2,1,140,280,0.5,false
+4,07:48:09.186,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+5,07:48:10.563,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+6,07:48:11.978,MovingTarget,Six Shooter,0.001s,1,1,1,140,140,1,false
+7,07:48:13.747,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+8,07:48:15.134,MovingTarget,Six Shooter,0.59s,2,2,1,210,280,0.75,false
+9,07:48:17.350,MovingTarget,Six Shooter,0.703s,2,1,0.5,140,280,0.5,false
+10,07:48:19.433,MovingTarget,Six Shooter,1.364s,2,2,1,210,280,0.75,false
+11,07:48:22.386,MovingTarget,Six Shooter,1.876s,3,2,0.667,140,420,0.333,false
+12,07:48:23.992,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+13,07:48:26.223,MovingTarget,Six Shooter,1.369s,3,2,0.667,210,420,0.5,false
+14,07:48:27.180,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+15,07:48:28.057,MovingTarget,Six Shooter,0.001s,1,1,1,140,140,1,false
+16,07:48:29.653,MovingTarget,Six Shooter,0.653s,2,1,0.5,140,280,0.5,false
+17,07:48:31.023,MovingTarget,Six Shooter,0s,1,1,1,140,140,1,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Six Shooter,27,23,2660.0,3780.0,
+
+Kills:,17
+Deaths:,0
+Fight Time:,8.092
+Avg TTK:,0
+Damage Done:,2660.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,1594.540527
+Scenario:,mccoyfrozentrack
+Hash:,bdeef293820a694ba85cadbd4e8c0caf
+Game Version:,2.0.3.1
+Challenge Start:,07:48:02.025
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.73407
+Resolution Scale,100.0

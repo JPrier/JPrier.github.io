@@ -1,0 +1,70 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,16:58:45.205,target,BB Gun,0s,1,1,1,1,1,1,false
+2,16:58:46.894,target,BB Gun,1.305s,2,1,0.5,1,2,0.5,false
+3,16:58:49.593,target,BB Gun,2.556s,2,1,0.5,1,2,0.5,false
+4,16:58:49.720,400ms,BB Gun,0.001s,1,1,1,1,1,1,false
+5,16:58:50.708,target,BB Gun,0s,1,1,1,1,1,1,false
+6,16:58:52.368,target,BB Gun,1.51s,2,1,0.5,1,2,0.5,false
+7,16:58:54.362,target,BB Gun,1.857s,4,1,0.25,1,4,0.25,false
+8,16:58:56.224,target,BB Gun,1.733s,2,1,0.5,1,2,0.5,false
+9,16:58:57.207,target,BB Gun,0.826s,2,1,0.5,1,2,0.5,false
+10,16:58:59.073,target,BB Gun,1.729s,2,1,0.5,1,2,0.5,false
+11,16:59:00.108,target,BB Gun,0.862s,2,1,0.5,1,2,0.5,false
+12,16:59:01.130,target,BB Gun,0.892s,2,1,0.5,1,2,0.5,false
+13,16:59:02.837,target,BB Gun,1.575s,2,1,0.5,1,2,0.5,false
+14,16:59:05.727,target,BB Gun,2.749s,2,1,0.5,1,2,0.5,false
+15,16:59:07.661,target,BB Gun,1.781s,2,1,0.5,1,2,0.5,false
+16,16:59:09.546,target,BB Gun,1.732s,2,1,0.5,1,2,0.5,false
+17,16:59:11.505,target,BB Gun,1.806s,2,1,0.5,1,2,0.5,false
+18,16:59:13.405,target,BB Gun,1.75s,2,1,0.5,1,2,0.5,false
+19,16:59:15.295,target,BB Gun,1.717s,2,1,0.5,1,2,0.5,false
+20,16:59:17.262,target,BB Gun,1.83s,2,1,0.5,1,2,0.5,false
+21,16:59:19.156,target,BB Gun,1.744s,2,1,0.5,1,2,0.5,false
+22,16:59:19.293,400ms,BB Gun,0s,1,1,1,1,1,1,false
+23,16:59:22.009,target,BB Gun,0s,1,1,1,1,1,1,false
+24,16:59:23.005,target,BB Gun,0.846s,2,1,0.5,1,2,0.5,false
+25,16:59:24.789,target,BB Gun,1.666s,2,1,0.5,1,2,0.5,false
+26,16:59:25.906,target,BB Gun,0.931s,2,1,0.5,1,2,0.5,false
+27,16:59:27.752,target,BB Gun,1.709s,2,1,0.5,1,2,0.5,false
+28,16:59:30.552,target,BB Gun,2.651s,2,1,0.5,1,2,0.5,false
+29,16:59:30.712,400ms,BB Gun,0s,1,1,1,1,1,1,false
+30,16:59:32.471,target,BB Gun,0s,1,1,1,1,1,1,false
+31,16:59:34.384,target,BB Gun,1.783s,2,1,0.5,1,2,0.5,false
+32,16:59:38.140,target,BB Gun,3.586s,4,1,0.25,1,4,0.25,false
+33,16:59:40.047,target,BB Gun,1.741s,2,1,0.5,1,2,0.5,false
+34,16:59:41.155,target,BB Gun,0.942s,2,1,0.5,1,2,0.5,false
+35,16:59:42.913,target,BB Gun,1.542s,2,1,0.5,1,2,0.5,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+BB Gun,68,35,35.0,68.0,
+
+Kills:,35
+Deaths:,0
+Fight Time:,47.352001
+Avg TTK:,0
+Damage Done:,35.0
+Damage Taken:,60.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,-25.0
+Scenario:,Target Acquisition Flick
+Hash:,36fd82246a97e259eb6ba920dac7760b
+Game Version:,2.0.3.2
+Challenge Start:,16:58:43.534
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,298.875488
+Resolution Scale,100.0

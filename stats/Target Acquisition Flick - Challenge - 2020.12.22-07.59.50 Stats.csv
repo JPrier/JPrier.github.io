@@ -1,0 +1,46 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,07:58:51.545,target,BB Gun,0s,1,1,1,1,1,1,false
+2,07:58:53.009,target,BB Gun,0.921s,2,1,0.5,1,2,0.5,false
+3,07:58:56.596,target,BB Gun,3.017s,5,1,0.2,1,5,0.2,false
+4,07:59:04.340,400ms,BB Gun,6.454s,8,1,0.125,1,8,0.125,false
+5,07:59:06.184,400ms,BB Gun,0.947s,2,1,0.5,1,2,0.5,false
+6,07:59:18.509,400ms,BB Gun,11.425s,12,1,0.083,1,12,0.083,false
+7,07:59:19.423,400ms,BB Gun,0s,1,1,1,1,1,1,false
+8,07:59:20.337,400ms,BB Gun,0s,1,1,1,1,1,1,false
+9,07:59:27.858,400ms,BB Gun,6.641s,8,1,0.125,1,8,0.125,false
+10,07:59:34.538,400ms,BB Gun,5.85s,7,1,0.143,1,7,0.143,false
+11,07:59:40.165,400ms,BB Gun,4.67s,6,1,0.167,1,6,0.167,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+BB Gun,64,11,11.0,64.0,
+
+Kills:,11
+Deaths:,0
+Fight Time:,39.924999
+Avg TTK:,0
+Damage Done:,11.0
+Damage Taken:,55.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,-44.0
+Scenario:,Target Acquisition Flick
+Hash:,36fd82246a97e259eb6ba920dac7760b
+Game Version:,2.0.3.1
+Challenge Start:,07:58:50.562
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.627991
+Resolution Scale,100.0

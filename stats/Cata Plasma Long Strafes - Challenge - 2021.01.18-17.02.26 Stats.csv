@@ -1,0 +1,39 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,17:01:43.015,Quaker Bot Long Strafes,Plasma,15.445s,141,15,0.106,300,2820,0.106,false
+2,17:01:52.522,Quaker Bot Long Strafes,Plasma,9.253s,78,17,0.218,302.1,1560,0.194,false
+3,17:02:01.485,Quaker Bot Long Strafes,Plasma,7.11s,72,15,0.208,300,1440,0.208,false
+4,17:02:11.170,Quaker Bot Long Strafes,Plasma,7.712s,78,16,0.205,300.1,1560,0.192,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+Plasma,512,74,1422.200073,10240.0,
+
+Kills:,4
+Deaths:,0
+Fight Time:,39.52
+Avg TTK:,0
+Damage Done:,1422.200073
+Damage Taken:,0.0
+Midairs:,37
+Midaired:,0
+Directs:,71
+Directed:,0
+Distance Traveled:,0.0
+Score:,4266.600098
+Scenario:,Cata Plasma Long Strafes
+Hash:,aa537717f5fab9f43ca144a080969c63
+Game Version:,2.0.3.2
+Challenge Start:,17:01:26.827
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.09079
+Resolution Scale,100.0

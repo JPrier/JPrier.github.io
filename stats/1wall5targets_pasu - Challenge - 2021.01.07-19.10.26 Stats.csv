@@ -1,0 +1,97 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,19:09:02.682,test,pistol,0.924s,2,1,0.5,1000,4000,0.25,false
+2,19:09:03.545,test,pistol,0s,1,1,1,1000,2000,0.5,false
+3,19:09:04.332,test,pistol,0s,1,1,1,1000,2000,0.5,false
+4,19:09:05.142,test,pistol,0s,1,1,1,1000,2000,0.5,false
+5,19:09:07.838,test,pistol,0.441s,2,1,0.5,1000,4000,0.25,false
+6,19:09:09.839,test,pistol,0.001s,1,1,1,1000,2000,0.5,false
+7,19:09:11.498,test,pistol,0.674s,2,1,0.5,1000,4000,0.25,false
+8,19:09:15.413,test,pistol,3.305s,3,1,0.333,1000,6000,0.167,false
+9,19:09:15.817,test,pistol,0s,1,1,1,1000,2000,0.5,false
+10,19:09:17.537,test,pistol,1.243s,2,1,0.5,1000,4000,0.25,false
+11,19:09:19.002,test,pistol,0.701s,2,1,0.5,1000,4000,0.25,false
+12,19:09:23.373,test,pistol,3.551s,3,1,0.333,1000,6000,0.167,false
+13,19:09:23.893,test,pistol,0s,1,1,1,1000,2000,0.5,false
+14,19:09:26.061,test,pistol,1.188s,3,1,0.333,1000,6000,0.167,false
+15,19:09:28.733,test,pistol,1.345s,2,1,0.5,1000,4000,0.25,false
+16,19:09:29.180,test,pistol,0s,1,1,1,1000,2000,0.5,false
+17,19:09:30.068,test,pistol,0s,1,1,1,1000,2000,0.5,false
+18,19:09:30.783,test,pistol,0s,1,1,1,1000,2000,0.5,false
+19,19:09:31.660,test,pistol,0s,1,1,1,1000,2000,0.5,false
+20,19:09:32.144,test,pistol,0s,1,1,1,1000,2000,0.5,false
+21,19:09:32.575,test,pistol,0s,1,1,1,1000,2000,0.5,false
+22,19:09:32.985,test,pistol,0s,1,1,1,1000,2000,0.5,false
+23,19:09:33.523,test,pistol,0s,1,1,1,1000,2000,0.5,false
+24,19:09:34.153,test,pistol,0s,1,1,1,1000,2000,0.5,false
+25,19:09:34.904,test,pistol,0s,1,1,1,1000,2000,0.5,false
+26,19:09:35.432,test,pistol,0s,1,1,1,1000,2000,0.5,false
+27,19:09:36.356,test,pistol,0.454s,2,1,0.5,1000,4000,0.25,false
+28,19:09:37.024,test,pistol,0s,1,1,1,1000,2000,0.5,false
+29,19:09:37.668,test,pistol,0s,1,1,1,1000,2000,0.5,false
+30,19:09:38.221,test,pistol,0s,1,1,1,1000,2000,0.5,false
+31,19:09:38.909,test,pistol,0.001s,1,1,1,1000,2000,0.5,false
+32,19:09:39.623,test,pistol,0s,1,1,1,1000,2000,0.5,false
+33,19:09:40.267,test,pistol,0s,1,1,1,1000,2000,0.5,false
+34,19:09:41.428,test,pistol,0.42s,2,1,0.5,1000,4000,0.25,false
+35,19:09:42.851,test,pistol,0.556s,2,1,0.5,1000,4000,0.25,false
+36,19:09:43.579,test,pistol,0s,1,1,1,1000,2000,0.5,false
+37,19:09:44.319,test,pistol,0s,1,1,1,1000,2000,0.5,false
+38,19:09:46.286,test,pistol,0.453s,2,1,0.5,1000,4000,0.25,false
+39,19:09:47.043,test,pistol,0s,1,1,1,1000,2000,0.5,false
+40,19:09:48.248,test,pistol,0.494s,2,1,0.5,1000,4000,0.25,false
+41,19:09:51.211,test,pistol,1.418s,2,1,0.5,1000,4000,0.25,false
+42,19:09:51.851,test,pistol,0s,1,1,1,1000,2000,0.5,false
+43,19:09:52.269,test,pistol,0s,1,1,1,1000,2000,0.5,false
+44,19:09:53.806,test,pistol,0s,1,1,1,1000,2000,0.5,false
+45,19:09:56.949,test,pistol,1.996s,5,1,0.2,1000,10000,0.1,false
+46,19:09:59.129,test,pistol,1.403s,2,1,0.5,1000,4000,0.25,false
+47,19:10:00.260,test,pistol,0s,1,1,1,1000,2000,0.5,false
+48,19:10:01.386,test,pistol,0s,1,1,1,1000,2000,0.5,false
+49,19:10:03.377,test,pistol,1.297s,3,1,0.333,1000,6000,0.167,false
+50,19:10:05.955,test,pistol,1.594s,3,1,0.333,1000,6000,0.167,false
+51,19:10:06.802,test,pistol,0s,1,1,1,1000,2000,0.5,false
+52,19:10:09.600,test,pistol,1.167s,2,1,0.5,1000,4000,0.25,false
+53,19:10:11.925,test,pistol,1.707s,3,1,0.333,1000,6000,0.167,false
+54,19:10:12.566,test,pistol,0s,1,1,1,1000,2000,0.5,false
+55,19:10:13.475,test,pistol,0s,1,1,1,1000,2000,0.5,false
+56,19:10:17.682,test,pistol,2.737s,4,1,0.25,1000,8000,0.125,false
+57,19:10:18.517,test,pistol,0s,1,1,1,1000,2000,0.5,false
+58,19:10:20.232,test,pistol,0.443s,2,1,0.5,1000,4000,0.25,false
+59,19:10:20.739,test,pistol,0.001s,1,1,1,1000,2000,0.5,false
+60,19:10:21.839,test,pistol,0s,1,1,1,1000,2000,0.5,false
+61,19:10:25.218,test,pistol,2.374s,3,1,0.333,1000,6000,0.167,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,98,61,61000.0,196000.0,
+Track Master 100,0,0,0.0,0.0,
+
+Kills:,61
+Deaths:,0
+Fight Time:,31.888
+Avg TTK:,0
+Damage Done:,61000.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,37.969387
+Scenario:,1wall5targets_pasu
+Hash:,a5be19c6e6aeb0d774c5e9d9fb497e91
+Game Version:,2.0.3.1
+Challenge Start:,19:09:00.294
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,427.984344
+Resolution Scale,100.0

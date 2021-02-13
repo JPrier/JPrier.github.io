@@ -1,0 +1,55 @@
+Kill #,Timestamp,Bot,Weapon,TTK,Shots,Hits,Accuracy,Damage Done,Damage Possible,Efficiency,Cheated
+1,10:08:45.148,target_decay,pistol,5.411s,7,1,0.143,25,350,0.071,false
+2,10:08:50.314,target_decay,pistol,4.446s,6,1,0.167,25,300,0.083,false
+3,10:08:51.874,target_decay,pistol,0.83s,2,1,0.5,25,100,0.25,false
+4,10:08:53.508,target_decay,pistol,0.89s,2,1,0.5,25,100,0.25,false
+5,10:08:55.231,target_decay,pistol,0.747s,2,1,0.5,25,100,0.25,false
+6,10:08:55.958,target_decay,pistol,0.001s,1,1,1,25,50,0.5,false
+7,10:09:00.238,target_decay,pistol,3.573s,5,1,0.2,25,250,0.1,false
+8,10:09:01.762,target_decay,pistol,0.797s,2,1,0.5,25,100,0.25,false
+9,10:09:02.509,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+10,10:09:04.986,target_decay,pistol,1.703s,3,1,0.333,25,150,0.167,false
+11,10:09:09.306,target_decay,pistol,3.563s,5,1,0.2,25,250,0.1,false
+12,10:09:15.377,target_decay,pistol,5.357s,7,1,0.143,25,350,0.071,false
+13,10:09:16.137,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+14,10:09:20.438,target_decay,pistol,3.534s,5,1,0.2,25,250,0.1,false
+15,10:09:21.195,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+16,10:09:21.961,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+17,10:09:28.079,target_decay,pistol,5.378s,7,1,0.143,25,350,0.071,false
+18,10:09:35.051,target_decay,pistol,6.249s,8,1,0.125,25,400,0.062,false
+19,10:09:35.818,target_decay,pistol,0s,1,1,1,25,50,0.5,false
+20,10:09:37.425,target_decay,pistol,0.91s,2,1,0.5,25,100,0.25,false
+
+Weapon,Shots,Hits,Damage Done,Damage Possible,,Sens Scale,Horiz Sens,Vert Sens,FOV,Hide Gun,Crosshair,Crosshair Scale,Crosshair Color,ADS Sens,ADS Zoom Scale
+pistol,70,20,500.0,3500.0,
+
+Kills:,20
+Deaths:,0
+Fight Time:,43.389
+Avg TTK:,0
+Damage Done:,500.0
+Damage Taken:,0.0
+Midairs:,0
+Midaired:,0
+Directs:,0
+Directed:,0
+Distance Traveled:,0.0
+Score:,571.428589
+Scenario:,Reflex Flick - Fair
+Hash:,a51ec6c2d75ccb78bdb0d20bf4ce9cb7
+Game Version:,2.0.3.2
+Challenge Start:,10:08:38.386
+
+Input Lag:,0
+Max FPS (config):,300.0
+Sens Scale:,Quake/Source
+Horiz Sens:,0.9
+Vert Sens:,0.9
+FOV:,100.0
+Hide Gun:,false
+Crosshair:,plus.png
+Crosshair Scale:,1.0
+Crosshair Color:,FFFF00
+Resolution,2560x1080
+Avg FPS,299.590912
+Resolution Scale,100.0
