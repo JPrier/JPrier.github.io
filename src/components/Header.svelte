@@ -7,7 +7,8 @@
   let shape: 'circle' | 'pill';
 
   function computeShape() {
-    return window.innerWidth < breakpoint ? 'pill' : 'circle';
+    const responsive = window.innerWidth < breakpoint ? 'pill' : 'circle';
+    return initialShape === 'pill' || responsive === 'pill' ? 'pill' : 'circle';
   }
 
   if (typeof window !== 'undefined') {
@@ -18,9 +19,15 @@
 
   onMount(() => {
     const handleResize = () => (shape = computeShape());
+    handleResize();
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   });
+
+  $: if (typeof window !== 'undefined') {
+    const newShape = computeShape();
+    if (newShape !== shape) shape = newShape;
+  }
 </script>
 
 <header class="header-bar">

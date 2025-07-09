@@ -1,13 +1,13 @@
 <!-- OrbitAnimation.svelte -->
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte';
-    import { fade } from 'svelte/transition';
+import { onMount, onDestroy } from 'svelte';
 
   let canvas: HTMLCanvasElement;
   let ctx: CanvasRenderingContext2D;
   let frameId: number;
 
   export let radius = 300;
+  let currentRadius = radius;
 
   let innerRadius: number;// = radius *.4;
   let outerRadius: number;// = radius*.45;
@@ -141,6 +141,19 @@
     });
   }
 
+  function setup() {
+    innerBalls.length = 0;
+    outerBalls.length = 0;
+    init();
+
+    for (let i = 0; i < innerCircleAmt; i++) {
+      innerBalls.push(new Ball(innerRadius, i, true));
+    }
+    for (let i = 0; i < outerCircleAmt; i++) {
+      outerBalls.push(new Ball(outerRadius, i, false));
+    }
+  }
+
   function drawLoop() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
@@ -166,17 +179,15 @@
       throw new Error('Failed to get canvas context');
     }
     ctx = context;
-    init();
-
-    for (let i = 0; i < innerCircleAmt; i++) {
-      innerBalls.push(new Ball(innerRadius, i, true));
-    }
-    for (let i = 0; i < outerCircleAmt; i++) {
-      outerBalls.push(new Ball(outerRadius, i, false));
-    }
+    setup();
 
     drawLoop();
   });
+
+  $: if (ctx && radius !== currentRadius) {
+    currentRadius = radius;
+    setup();
+  }
 
   onDestroy(() => {
     typeof cancelAnimationFrame!=="undefined" && cancelAnimationFrame(frameId);
@@ -187,5 +198,4 @@
   canvas {
     display: block;
   }
-</style>
-<canvas bind:this={canvas} style="display:block;"></canvas>
+</style><canvas bind:this={canvas} style="display:block;"></canvas>
