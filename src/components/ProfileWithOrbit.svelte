@@ -2,11 +2,11 @@
   import Orbit from './Orbit.svelte';
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
-  const containerSize = 200;
-  const orbitRadius = containerSize / 2;
+  const circleSize = 160;
+  const orbitRadius = circleSize / 2;
 </script>
 
-<div class="orbit-container" style="width:{containerSize}px;height:{containerSize}px;">
+<div class="orbit-container {shape}">
   <Orbit class="orbit-canvas" radius={orbitRadius} />
   <img {src} alt="Profile image" class="profile-img {shape}" />
 </div>
@@ -15,6 +15,16 @@
 .orbit-container {
   position: relative;
   flex-shrink: 0;
+}
+
+.orbit-container.circle {
+  width: 160px;
+  height: 160px;
+}
+
+.orbit-container.pill {
+  width: 120px;
+  height: 40px;
 }
 
 .orbit-canvas {
@@ -33,17 +43,20 @@
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
 .profile-img.circle {
   width: 120px;
   height: 120px;
+  padding: 6px;
   border-radius: 50%;
 }
 
 .profile-img.pill {
-  width: 160px;
-  height: 80px;
+  width: 120px;
+  height: 40px;
+  padding: 2px;
   border-radius: 9999px;
 }
 </style>

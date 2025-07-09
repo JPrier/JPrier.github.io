@@ -43,20 +43,21 @@
   .header-wrapper {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
 
   .nav-links {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
+    white-space: nowrap;
   }
 
   @media (max-width: 768px) {
     .header-wrapper {
-      flex-direction: column;
-      align-items: flex-start;
+      gap: 0.5rem;
     }
   }
 </style>
