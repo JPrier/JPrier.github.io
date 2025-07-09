@@ -128,17 +128,6 @@ import { onMount, onDestroy } from 'svelte';
     lineDistance = radius * 0.7;
     fadeDistance = radius * 0.3;
 
-    console.log('resize', {
-      diameter,
-      innerRadius,
-      outerRadius,
-      maxOuterRadius,
-      innerCircleAmt,
-      outerCircleAmt,
-      lineDistance,
-      fadeDistance,
-      maxLines
-    });
   }
 
   function setup() {

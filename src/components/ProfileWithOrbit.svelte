@@ -3,7 +3,7 @@
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
   let radius: number;
-  $: radius = shape === 'circle' ? 120 : 60;
+  $: radius = shape === 'circle' ? 100 : 50;
 </script>
 
 <div class={`profile-container ${shape}`} style={`--radius:${radius}px`}>
@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: visible;
     flex-shrink: 0;
     width: var(--width);
     height: var(--height);
@@ -25,12 +26,12 @@
       margin-right 0.4s ease;
   }
   .profile-container.circle {
-    --width: 160px;
-    --height: 160px;
+    --width: 150px;
+    --height: 150px;
     border-radius: 50%;
   }
   .profile-container.pill {
-    --width: 80px;
+    --width: 70px;
     --height: 40px;
     border-radius: 999px;
   }
