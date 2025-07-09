@@ -23,7 +23,7 @@
   });
 </script>
 
-<header class="site-header">
+<header class="header-bar">
   <ProfileWithOrbit {shape} />
   <nav class="nav-links">
     <a href="/" class="nav-link">Home</a>
@@ -33,7 +33,7 @@
 </header>
 
 <style>
-  .site-header {
+  .header-bar {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -45,5 +45,11 @@
     align-items: center;
     gap: 1rem;
     flex-wrap: nowrap;
+  }
+  @media (max-width: 768px) {
+    .header-bar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
 </style>

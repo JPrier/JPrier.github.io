@@ -6,8 +6,8 @@
   $: radius = shape === 'circle' ? 120 : 60;
 </script>
 
-<div class={`profile-container ${shape}`}>
-  <Orbit class="orbit" radius={radius} style={`--radius:${radius}px`} />
+<div class={`profile-container ${shape}`} style={`--radius:${radius}px`}>
+  <Orbit class="orbit" radius={radius} />
   <img {src} alt="Profile" class="profile-image" />
 </div>
 
@@ -18,17 +18,20 @@
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    margin-right: 0.5rem;
-    transition: border-radius 0.4s ease, width 0.4s ease, height 0.4s ease;
+    width: var(--width);
+    height: var(--height);
+    margin-right: calc(var(--radius) - (var(--width) / 2));
+    transition: width 0.4s ease, height 0.4s ease, border-radius 0.4s ease,
+      margin-right 0.4s ease;
   }
   .profile-container.circle {
-    width: 160px;
-    height: 160px;
+    --width: 160px;
+    --height: 160px;
     border-radius: 50%;
   }
   .profile-container.pill {
-    width: 64px;
-    height: 32px;
+    --width: 80px;
+    --height: 40px;
     border-radius: 999px;
   }
   .profile-image {
