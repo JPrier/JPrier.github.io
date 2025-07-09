@@ -38,12 +38,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    flex-wrap: wrap;
-  }
-  @media (max-width: 768px) {
-    .site-header {
-      flex-direction: column;
-      align-items: flex-start;
-    }
+    flex-wrap: nowrap;
   }
 </style>

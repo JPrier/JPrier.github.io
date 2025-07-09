@@ -2,14 +2,15 @@
   import Orbit from './Orbit.svelte';
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
-  let radius = 60;
+  let radius: number;
+  $: radius = shape === 'circle' ? 100 : 50;
 </script>
 
 <div class={`profile-container ${shape}`}>
-  <img {src} alt="Profile" class="profile-image" />
   <div class="orbit-wrapper">
     <Orbit radius={radius} />
   </div>
+  <img {src} alt="Profile" class="profile-image" />
 </div>
 
 <style>
@@ -28,11 +29,13 @@
     border-radius: 50%;
   }
   .profile-container.pill {
-    width: 80px;
-    height: 40px;
+    width: 64px;
+    height: 32px;
     border-radius: 999px;
   }
   .profile-image {
+    position: relative;
+    z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -40,11 +43,12 @@
   }
   .orbit-wrapper {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -20px;
+    left: -20px;
+    width: calc(100% + 40px);
+    height: calc(100% + 40px);
     pointer-events: none;
+    z-index: 0;
   }
   .orbit-wrapper :global(canvas) {
     width: 100%;
