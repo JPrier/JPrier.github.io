@@ -2,60 +2,48 @@
   import Orbit from './Orbit.svelte';
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
-  let radius: number;
-  $: radius = shape === 'circle' ? 100 : 50;
+  const containerSize = 200;
+  const orbitRadius = containerSize / 2;
 </script>
 
-<div class={`profile-container ${shape}`} style={`--radius:${radius}px`}>
-  <Orbit class="orbit" radius={radius} />
-  <img {src} alt="Profile" class="profile-image" />
+<div class="orbit-container" style="width:{containerSize}px;height:{containerSize}px;">
+  <Orbit class="orbit-canvas" radius={orbitRadius} />
+  <img {src} alt="Profile image" class="profile-img {shape}" />
 </div>
 
 <style>
-  .profile-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: visible;
-    flex-shrink: 0;
-    width: var(--width);
-    height: var(--height);
-    margin-right: calc(var(--radius) - (var(--width) / 2));
-    transition: width 0.4s ease, height 0.4s ease, border-radius 0.4s ease,
-      margin-right 0.4s ease;
-  }
-  .profile-container.circle {
-    --width: 150px;
-    --height: 150px;
-    border-radius: 50%;
-  }
-  .profile-container.pill {
-    --width: 70px;
-    --height: 40px;
-    border-radius: 999px;
-  }
-  .profile-image {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: inherit;
-  }
-  .orbit {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: calc(var(--radius) * 2);
-    height: calc(var(--radius) * 2);
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    z-index: 0;
-  }
-  .orbit :global(canvas) {
-    width: 100%;
-    height: 100%;
-    display: block;
-  }
+.orbit-container {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.orbit-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.profile-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+}
+
+.profile-img.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-img.pill {
+  width: 160px;
+  height: 80px;
+  border-radius: 9999px;
+}
 </style>

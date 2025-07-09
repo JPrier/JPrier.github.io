@@ -30,31 +30,31 @@
   }
 </script>
 
-<header class="header-bar">
+<div class="header-wrapper">
   <ProfileWithOrbit {shape} />
   <nav class="nav-links">
     <a href="/" class="nav-link">Home</a>
     <a href="/post_test" class="nav-link">Posts</a>
     <a href="/projects" class="nav-link">Projects</a>
   </nav>
-</header>
+</div>
 
 <style>
-  .header-bar {
+  .header-wrapper {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 0.5rem 1rem;
-    position: relative;
+    gap: 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;
   }
+
   .nav-links {
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    flex-wrap: nowrap;
+    gap: 1.5rem;
   }
+
   @media (max-width: 768px) {
-    .header-bar {
+    .header-wrapper {
       flex-direction: column;
       align-items: flex-start;
     }
