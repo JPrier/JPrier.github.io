@@ -10,8 +10,8 @@ import { onMount, onDestroy } from 'svelte';
   let currentRadius = radius;
   let resizeObs: ResizeObserver;
 
-  let innerRadius: number;// = radius *.4;
-  let outerRadius: number;// = radius*.45;
+  let innerRadius: number;
+  let outerRadius: number;
   let maxOuterRadius: number;
   let innerCircleAmt: number;// = Math.max(10, innerRadius/10);
   let outerCircleAmt: number;// = Math.max(20, outerRadius/10);
@@ -63,8 +63,8 @@ import { onMount, onDestroy } from 'svelte';
     }
 
     updatePos() {
-      const cx = canvas.width / 2;
-      const cy = canvas.height / 2;
+      const cx = canvas.offsetWidth / 2;
+      const cy = canvas.offsetHeight / 2;
       this.x = cx + this.r * Math.sin(piIndex * this.i);
       this.y = cy + this.r * Math.cos(piIndex * this.i);
     }
@@ -127,14 +127,15 @@ import { onMount, onDestroy } from 'svelte';
   function init() {
     updateSize();
     piIndex = (Math.PI * 2) / indexTotal;
-    innerRadius = radius*.6;
-    outerRadius = radius*.7;
-    maxOuterRadius = Math.min(radius-ballSize,outerRadius*1.2);
+    const minSize = Math.min(canvas.width, canvas.height);
+    innerRadius = minSize * 0.3;
+    outerRadius = minSize * 0.35;
+    maxOuterRadius = Math.min(minSize / 2 - ballSize, outerRadius * 1.2);
     outerCircleAmt = Math.floor(Math.min(40, Math.max(20, outerRadius/5)));
     innerCircleAmt = Math.floor(Math.min(20, Math.max(10, innerRadius/5)));
     maxLines = Math.floor((outerCircleAmt+innerCircleAmt) / 6);
-    lineDistance = radius * 0.7;
-    fadeDistance = radius * 0.3;
+    lineDistance = minSize * 0.35;
+    fadeDistance = minSize * 0.2;
 
   }
 
