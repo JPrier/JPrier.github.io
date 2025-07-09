@@ -1,0 +1,30 @@
+---
+import "../styles/global.css"; 
+import ProfileWithOrbit from '../components/ProfileWithOrbit.svelte';
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{title ? `Josh Prier - ${title}` : "Josh Prier"}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body class="theme-default">
+    <header class="site-header">
+      <div class="profile-orbit-container">
+        <ProfileWithOrbit client:only />
+      </div>
+      <nav class="site-nav">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/projects" class="nav-link">Projects</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>
