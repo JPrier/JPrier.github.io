@@ -1,16 +1,17 @@
 <!-- OrbitAnimation.svelte -->
 <script lang="ts">
-  import { onMount, onDestroy } from 'svelte';
-    import { fade } from 'svelte/transition';
+import { onMount, onDestroy } from 'svelte';
 
   let canvas: HTMLCanvasElement;
   let ctx: CanvasRenderingContext2D;
   let frameId: number;
 
   export let radius = 300;
+  let currentRadius = radius;
+  let resizeObs: ResizeObserver;
 
-  let innerRadius: number;// = radius *.4;
-  let outerRadius: number;// = radius*.45;
+  let innerRadius: number;
+  let outerRadius: number;
   let maxOuterRadius: number;
   let innerCircleAmt: number;// = Math.max(10, innerRadius/10);
   let outerCircleAmt: number;// = Math.max(20, outerRadius/10);
@@ -62,8 +63,8 @@
     }
 
     updatePos() {
-      const cx = canvas.width / 2;
-      const cy = canvas.height / 2;
+      const cx = canvas.offsetWidth / 2;
+      const cy = canvas.offsetHeight / 2;
       this.x = cx + this.r * Math.sin(piIndex * this.i);
       this.y = cy + this.r * Math.cos(piIndex * this.i);
     }
@@ -114,31 +115,41 @@
   const innerBalls: Ball[] = [];
   const outerBalls: Ball[] = [];
 
+  function updateSize() {
+    if (!canvas) return;
+    const w = canvas.offsetWidth;
+    const h = canvas.offsetHeight;
+    canvas.width = w;
+    canvas.height = h;
+    radius = Math.min(w, h) / 2;
+  }
+
   function init() {
-    let diameter = radius * 2;
-    canvas.width = diameter;
-    canvas.height = diameter;
+    updateSize();
     piIndex = (Math.PI * 2) / indexTotal;
-    innerRadius = radius*.6;
-    outerRadius = radius*.7;
-    maxOuterRadius = Math.min(radius-ballSize,outerRadius*1.2);
+    const minSize = Math.min(canvas.width, canvas.height);
+    innerRadius = minSize * 0.3;
+    outerRadius = minSize * 0.35;
+    maxOuterRadius = Math.min(minSize / 2 - ballSize, outerRadius * 1.2);
     outerCircleAmt = Math.floor(Math.min(40, Math.max(20, outerRadius/5)));
     innerCircleAmt = Math.floor(Math.min(20, Math.max(10, innerRadius/5)));
     maxLines = Math.floor((outerCircleAmt+innerCircleAmt) / 6);
-    lineDistance = radius * 0.7;
-    fadeDistance = radius * 0.3;
+    lineDistance = minSize * 0.35;
+    fadeDistance = minSize * 0.2;
 
-    console.log('resize', {
-      diameter,
-      innerRadius,
-      outerRadius,
-      maxOuterRadius,
-      innerCircleAmt,
-      outerCircleAmt,
-      lineDistance,
-      fadeDistance,
-      maxLines
-    });
+  }
+
+  function setup() {
+    innerBalls.length = 0;
+    outerBalls.length = 0;
+    init();
+
+    for (let i = 0; i < innerCircleAmt; i++) {
+      innerBalls.push(new Ball(innerRadius, i, true));
+    }
+    for (let i = 0; i < outerCircleAmt; i++) {
+      outerBalls.push(new Ball(outerRadius, i, false));
+    }
   }
 
   function drawLoop() {
@@ -166,20 +177,23 @@
       throw new Error('Failed to get canvas context');
     }
     ctx = context;
-    init();
+    resizeObs = new ResizeObserver(() => {
+      updateSize();
+    });
+    resizeObs.observe(canvas);
 
-    for (let i = 0; i < innerCircleAmt; i++) {
-      innerBalls.push(new Ball(innerRadius, i, true));
-    }
-    for (let i = 0; i < outerCircleAmt; i++) {
-      outerBalls.push(new Ball(outerRadius, i, false));
-    }
-
+    setup();
     drawLoop();
   });
 
+  $: if (ctx && radius !== currentRadius) {
+    currentRadius = radius;
+    setup();
+  }
+
   onDestroy(() => {
-    cancelAnimationFrame(frameId);
+    typeof cancelAnimationFrame!=="undefined" && cancelAnimationFrame(frameId);
+    resizeObs && resizeObs.disconnect();
   });
 </script>
 
@@ -187,6 +201,4 @@
   canvas {
     display: block;
   }
-</style>
-
-<canvas bind:this={canvas} style="display:block;"></canvas>
+</style><canvas bind:this={canvas} style="display:block;"></canvas>
