@@ -3,13 +3,11 @@
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
   let radius: number;
-  $: radius = shape === 'circle' ? 100 : 50;
+  $: radius = shape === 'circle' ? 120 : 60;
 </script>
 
 <div class={`profile-container ${shape}`}>
-  <div class="orbit-wrapper">
-    <Orbit radius={radius} />
-  </div>
+  <Orbit class="orbit" radius={radius} style={`--radius:${radius}px`} />
   <img {src} alt="Profile" class="profile-image" />
 </div>
 
@@ -41,16 +39,17 @@
     object-fit: cover;
     border-radius: inherit;
   }
-  .orbit-wrapper {
+  .orbit {
     position: absolute;
-    top: -20px;
-    left: -20px;
-    width: calc(100% + 40px);
-    height: calc(100% + 40px);
+    top: 50%;
+    left: 50%;
+    width: calc(var(--radius) * 2);
+    height: calc(var(--radius) * 2);
+    transform: translate(-50%, -50%);
     pointer-events: none;
     z-index: 0;
   }
-  .orbit-wrapper :global(canvas) {
+  .orbit :global(canvas) {
     width: 100%;
     height: 100%;
     display: block;

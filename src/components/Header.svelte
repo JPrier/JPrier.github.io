@@ -3,17 +3,23 @@
   import { onMount } from 'svelte';
 
   export let initialShape: 'circle' | 'pill' = 'circle';
-  let shape: 'circle' | 'pill' = initialShape;
   const breakpoint = 768;
+  let shape: 'circle' | 'pill';
 
-  function updateHeaderSize() {
-    shape = window.innerWidth < breakpoint ? 'pill' : 'circle';
+  function computeShape() {
+    return window.innerWidth < breakpoint ? 'pill' : 'circle';
+  }
+
+  if (typeof window !== 'undefined') {
+    shape = computeShape();
+  } else {
+    shape = initialShape;
   }
 
   onMount(() => {
-    updateHeaderSize();
-    window.addEventListener('resize', updateHeaderSize);
-    return () => window.removeEventListener('resize', updateHeaderSize);
+    const handleResize = () => (shape = computeShape());
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   });
 </script>
 
