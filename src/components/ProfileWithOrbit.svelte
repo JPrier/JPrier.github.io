@@ -2,7 +2,7 @@
   import Orbit from './Orbit.svelte';
   export let shape: 'circle' | 'pill' = 'circle';
   export let src: string = '/me.JPG';
-  let radius = 90;
+  let radius = 60;
 </script>
 
 <div class={`profile-container ${shape}`}>
@@ -18,16 +18,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
     transition: border-radius 0.4s ease, width 0.4s ease, height 0.4s ease;
   }
   .profile-container.circle {
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
   }
   .profile-container.pill {
-    width: 120px;
-    height: 48px;
+    width: 80px;
+    height: 40px;
     border-radius: 999px;
   }
   .profile-image {
