@@ -8,6 +8,7 @@ import { onMount, onDestroy } from 'svelte';
 
   export let radius = 300;
   let currentRadius = radius;
+  let resizeObs: ResizeObserver;
 
   let innerRadius: number;// = radius *.4;
   let outerRadius: number;// = radius*.45;
@@ -114,10 +115,17 @@ import { onMount, onDestroy } from 'svelte';
   const innerBalls: Ball[] = [];
   const outerBalls: Ball[] = [];
 
+  function updateSize() {
+    if (!canvas) return;
+    const w = canvas.offsetWidth;
+    const h = canvas.offsetHeight;
+    canvas.width = w;
+    canvas.height = h;
+    radius = Math.min(w, h) / 2;
+  }
+
   function init() {
-    let diameter = radius * 2;
-    canvas.width = diameter;
-    canvas.height = diameter;
+    updateSize();
     piIndex = (Math.PI * 2) / indexTotal;
     innerRadius = radius*.6;
     outerRadius = radius*.7;
@@ -168,8 +176,12 @@ import { onMount, onDestroy } from 'svelte';
       throw new Error('Failed to get canvas context');
     }
     ctx = context;
-    setup();
+    resizeObs = new ResizeObserver(() => {
+      updateSize();
+    });
+    resizeObs.observe(canvas);
 
+    setup();
     drawLoop();
   });
 
@@ -180,6 +192,7 @@ import { onMount, onDestroy } from 'svelte';
 
   onDestroy(() => {
     typeof cancelAnimationFrame!=="undefined" && cancelAnimationFrame(frameId);
+    resizeObs && resizeObs.disconnect();
   });
 </script>
 
