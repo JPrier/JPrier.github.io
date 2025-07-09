@@ -179,7 +179,9 @@
   });
 
   onDestroy(() => {
-    cancelAnimationFrame(frameId);
+    if (typeof cancelAnimationFrame !== 'undefined') {
+      cancelAnimationFrame(frameId);
+    }
   });
 </script>
 
@@ -188,5 +190,4 @@
     display: block;
   }
 </style>
-
 <canvas bind:this={canvas} style="display:block;"></canvas>

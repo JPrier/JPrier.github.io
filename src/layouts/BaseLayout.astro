@@ -1,7 +1,8 @@
 ---
-import "../styles/global.css"; 
-import ProfileWithOrbit from '../components/ProfileWithOrbit.svelte';
-const { title } = Astro.props;
+import "../styles/global.css";
+import Header from '../components/Header.svelte';
+import ClientRouter from 'astro/components/ClientRouter.astro';
+const { title, headerShape = 'circle' } = Astro.props;
 ---
 
 <html lang="en">
@@ -9,22 +10,11 @@ const { title } = Astro.props;
     <meta charset="UTF-8" />
     <title>{title ? `Josh Prier - ${title}` : "Josh Prier"}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <ClientRouter />
   </head>
   <body class="theme-default">
-    <header class="site-header">
-      <div class="profile-orbit-container">
-        <ProfileWithOrbit client:only />
-      </div>
-      <nav class="site-nav">
-        <a href="/" class="nav-link">Home</a>
-        <a href="/about" class="nav-link">About</a>
-        <a href="/projects" class="nav-link">Projects</a>
-        <a href="/contact" class="nav-link">Contact</a>
-      </nav>
-    </header>
-
+    <Header client:load transition:persist transition:name="header" initialShape={headerShape} />
     <main>
       <slot />
     </main>
-  </body>
-</html>
+  </body></html>
